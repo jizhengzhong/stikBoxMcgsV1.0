@@ -1,1 +1,19 @@
-*.zip
+# Keil 编译产物
+Objects/
+Listings/
+*.axf
+*.hex
+*.o
+*.d
+*.htm
+*.bak
+*.lnp
+*.map
+*.sct
+*.dep
+*.uvguix
+*.iex
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
