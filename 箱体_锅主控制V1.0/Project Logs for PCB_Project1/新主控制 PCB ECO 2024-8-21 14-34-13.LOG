@@ -1,0 +1,19 @@
+Added Pin To Net: NetName=CS Pin=*1-51
+Added Pin To Net: NetName=DI Pin=R42-1
+Added Pin To Net: NetName=DO Pin=R46-2
+Added Pin To Net: NetName=CLK Pin=R47-1
+Added Pin To Net: NetName=DI Pin=U3-2
+Added Pin To Net: NetName=DO Pin=U3-5
+Added Pin To Net: NetName=CLK Pin=U3-6
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CTRL_FMQ" already exists
+Add Net: Net with name "CTRL_FS" already exists
+Add Net: Net with name "CTRL_RelayA1" already exists
+Add Net: Net with name "CTRL_RelayA2" already exists
+Add Net: Net with name "CTRL_RelayB1" already exists
+Add Net: Net with name "CTRL_RelayB2" already exists
+Add Net: Net with name "CTRL_YSJ" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

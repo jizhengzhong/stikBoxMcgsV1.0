@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=COMA_a1 Pin=K1_a1-2
+Removed Pin From Net: NetName=COMA_a2 Pin=K1_a2-2
+Removed Pin From Net: NetName=COMB_a1 Pin=K2_a1-2
+Removed Pin From Net: NetName=COMB_a2 Pin=K2_a2-2
+Removed Pin From Net: NetName=COMA_a1 Pin=R87_a1-2
+Removed Pin From Net: NetName=COMA_a2 Pin=R87_a2-2
+Removed Pin From Net: NetName=COMB_a1 Pin=R92_a1-2
+Removed Pin From Net: NetName=COMB_a2 Pin=R92_a2-2
+Added Pin To Net: NetName=COMA_a2 Pin=*1-51
+Added Pin To Net: NetName=COMB_a1 Pin=*1-52
+Added Pin To Net: NetName=COMA_a1 Pin=IC16-5
+Added Pin To Net: NetName=COMA Pin=K1_a1-2
+Added Pin To Net: NetName=COMA Pin=K1_a2-2
+Added Pin To Net: NetName=COMB Pin=K2_a1-2
+Added Pin To Net: NetName=COMB Pin=K2_a2-2
+Added Pin To Net: NetName=COMB_a2 Pin=Q5-2
+Added Pin To Net: NetName=COMB_a2 Pin=Q6-3
+Added Pin To Net: NetName=COMB_a2 Pin=Q9_a1-2
+Added Pin To Net: NetName=COMB_a2 Pin=Q9_a2-2
+Added Pin To Net: NetName=COMB_a2 Pin=Q10_a1-2
+Added Pin To Net: NetName=COMB_a2 Pin=Q10_a2-2
+Added Pin To Net: NetName=COMB_a2 Pin=R80-2
+Added Pin To Net: NetName=COMB_a2 Pin=R85-2
+Added Pin To Net: NetName=COMA Pin=R87_a1-2
+Added Pin To Net: NetName=COMA Pin=R87_a2-2
+Added Pin To Net: NetName=COMB_a2 Pin=R90_a1-1
+Added Pin To Net: NetName=COMB_a2 Pin=R90_a2-1
+Added Pin To Net: NetName=COMB Pin=R92_a1-2
+Added Pin To Net: NetName=COMB Pin=R92_a2-2
+Added Pin To Net: NetName=COMB_a2 Pin=R95_a1-1
+Added Pin To Net: NetName=COMB_a2 Pin=R95_a2-1
+Change Net Name : Old Net Name=COMA_a1 New Net Name=CTRL_YSJ
+Change Net Name : Old Net Name=COMA_a2 New Net Name=CS
+Change Net Name : Old Net Name=COMB_a1 New Net Name=CLK
+Change Net Name : Old Net Name=COMB_a2 New Net Name=CGND
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

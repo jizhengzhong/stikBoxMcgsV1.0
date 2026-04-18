@@ -1,0 +1,33 @@
+Change Component Designator: OldDesignator=    NewDesignator=P14
+Added Pin To Net: NetName=GS_ADC Pin=*1-30
+Added Net: Name=GS_ADC
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Class: Name=In_put 
+Added Member To Class: ClassName=main Member=Component P14 Header 2
+Added Room: Name=a1
+Added Room: Name=a2
+Added Room: Name=b1
+Added Room: Name=b2
+Added Room: Name=b3
+Added Room: Name=c1
+Added Room: Name=c2
+Added Room: Name=c3
+Added Room: Name=d1
+Added Room: Name=d2
+Added Room: Name=d3
+Added Room: Name=d4
+Added Room: Name=d5
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=Designator5
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=main

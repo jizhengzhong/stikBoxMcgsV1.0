@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=Q3 Old Footprint=SOT-23B_N New Footprint=SOT23
+Change Component Comment: Designator=Q3 Old Comment=PNP New Comment=TIP122
+Add Pin To Net: Pin=RELAY_YSJ2-2 Old Net=NetRELAY_YSJ2_2 New Net=+24VDD
+Add Pin To Net: Pin=RELAY_YSJ2-3 Old Net=NetRELAY_YSJ2_3 New Net=IN_L
+Add Pin To Net: Pin=RELAY_YSJ2-4 Old Net=NetRELAY_YSJ2_4 New Net=AC_YSJ
+Change Pin Designator/Name:  Old Designator=Q3-1 Old Name=C New Designator =E New Name=3
+Change Pin Designator/Name:  Old Designator=Q3-3 Old Name=E New Designator =C New Name=1

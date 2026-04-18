@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+24V Pin=P6-2
+Added Pin To Net: NetName=+24VDD Pin=P6-2
+Added Room: Name=Designator
+Added Room: Name=Designator

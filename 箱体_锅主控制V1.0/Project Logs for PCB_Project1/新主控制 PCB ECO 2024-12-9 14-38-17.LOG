@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=EXT_RXD3 Pin=2-3
+Removed Pin From Net: NetName=EXT_TXD3 Pin=2-4
+Added Pin To Net: NetName=EXT_RXD2 Pin=2-3
+Added Pin To Net: NetName=EXT_TXD2 Pin=2-4
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=a1
+Added Room: Name=a2
+Added Room: Name=b1
+Added Room: Name=b2
+Added Room: Name=b3
+Added Room: Name=c1
+Added Room: Name=c2
+Added Room: Name=c3
+Added Room: Name=d1
+Added Room: Name=d2
+Added Room: Name=d3
+Added Room: Name=d4
+Added Room: Name=d5
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=Designator5
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=main

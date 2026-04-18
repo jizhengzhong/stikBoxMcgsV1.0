@@ -1,0 +1,6 @@
+Change Component Comment: Designator=R37 Old Comment==Manufacturer Part New Comment=RM10D471KD14E100
+Change Component Comment: Designator=R87 Old Comment==Manufacturer Part New Comment=RM10D471KD14E100
+Change Component Comment: Designator=R87 Old Comment=RM10D471KD14E100 New Comment=RM10D471KD14E100
+Change Component Comment: Designator=R92 Old Comment==Manufacturer Part New Comment=RM10D471KD14E100
+Change Component Comment: Designator=R92 Old Comment=RM10D471KD14E100 New Comment=RM10D471KD14E100
+Add Pin To Net: Pin=P1-7 Old Net=NetP1_7 New Net=ADC_Sense

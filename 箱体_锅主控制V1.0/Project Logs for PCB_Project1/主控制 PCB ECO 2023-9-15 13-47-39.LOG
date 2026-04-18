@@ -1,0 +1,51 @@
+Added Component: Designator=C44(0805C)
+Added Component: Designator=R42(0805R)
+Added Component: Designator=R43(0805R)
+Added Component: Designator=R44(0805R)
+Added Component: Designator=R45(0805R)
+Added Component: Designator=R46(0805R)
+Added Component: Designator=R47(0805R)
+Added Component: Designator=U3(W25Q64)
+Added Pin To Net: NetName=+3.3V Pin=C44-1
+Added Pin To Net: NetName=DGND Pin=C44-2
+Added Pin To Net: NetName=+3.3V Pin=R42-2
+Added Pin To Net: NetName=+3.3V Pin=R43-2
+Added Pin To Net: NetName=DGND Pin=R44-1
+Added Pin To Net: NetName=DGND Pin=R45-1
+Added Pin To Net: NetName=+3.3V Pin=R46-2
+Added Pin To Net: NetName=+3.3V Pin=R47-1
+Added Pin To Net: NetName=DGND Pin=U3-4
+Added Pin To Net: NetName=+3.3V Pin=U3-8
+Added Pin To Net: NetName=CLK Pin=*1-52
+Added Pin To Net: NetName=CLK Pin=U3-6
+Added Net: Name=CLK
+Added Pin To Net: NetName=CS Pin=*1-51
+Added Pin To Net: NetName=CS Pin=R42-1
+Added Pin To Net: NetName=CS Pin=U3-1
+Added Net: Name=CS
+Added Pin To Net: NetName=DI Pin=*1-53
+Added Pin To Net: NetName=DI Pin=R43-1
+Added Pin To Net: NetName=DI Pin=U3-2
+Added Net: Name=DI
+Added Pin To Net: NetName=DO Pin=*1-54
+Added Pin To Net: NetName=DO Pin=R47-2
+Added Pin To Net: NetName=DO Pin=U3-5
+Added Net: Name=DO
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=U3-7
+Added Net: Name=NetR44_2
+Added Pin To Net: NetName=NetR45_2 Pin=R45-2
+Added Pin To Net: NetName=NetR45_2 Pin=U3-3
+Added Net: Name=NetR45_2
+Added Class: Name=In_put 
+Added Member To Class: ClassName=main Member=Component *1 Other
+Added Member To Class: ClassName=main Member=Component C44 0.1uF
+Added Member To Class: ClassName=main Member=Component P6 Header 3
+Added Member To Class: ClassName=Designator1 Member=Component P8 Header 3
+Added Member To Class: ClassName=main Member=Component R42 4.7K
+Added Member To Class: ClassName=main Member=Component R43 4.7K
+Added Member To Class: ClassName=main Member=Component R44 4.7K
+Added Member To Class: ClassName=main Member=Component R45 4.7K
+Added Member To Class: ClassName=main Member=Component R46 4.7K
+Added Member To Class: ClassName=main Member=Component R47 4.7K
+Added Member To Class: ClassName=main Member=Component U3 w25q64

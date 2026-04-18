@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=R83 Old Footprint=0603R New Footprint=0805R
+Change Component Footprint: Designator=R84 Old Footprint=0603R New Footprint=0805R
+Change Component Footprint: Designator=R85 Old Footprint=0603R New Footprint=0805R
+Change Room Name: Old Name=Designator_5 New Name=Designator
+Change Room Name: Old Name=Designator_7 New Name=Designator
+Added Room: Name=Designator

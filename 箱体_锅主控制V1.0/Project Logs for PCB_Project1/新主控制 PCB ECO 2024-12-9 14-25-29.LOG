@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=EXT_TXD2 Pin=P11-4
+Removed Pin From Net: NetName=EXT_RXD2 Pin=P11-5
+Removed Pin From Net: NetName=DGND Pin=P11-6
+Change Component Footprint: Designator=P11 Old Footprint=CONN-TH_6P-P7.62_WJ25C-B-7.62-6P New Footprint=CONN-TH_KF7.62-3p
+Change Component Comment : Designator=P11 Old Comment=Header 6 New Comment=Header 3
+Added Component: Designator=2(XH2.54-4P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P14(2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=2-1
+Added Pin To Net: NetName=EXT_RXD3 Pin=2-3
+Added Pin To Net: NetName=EXT_TXD3 Pin=2-4
+Added Pin To Net: NetName=AGND Pin=P14-1
+Added Pin To Net: NetName=+24V Pin=P14-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator5 Member=Component 2 Header 4
+Added Member To Class: ClassName=main Member=Component P14 Header 2

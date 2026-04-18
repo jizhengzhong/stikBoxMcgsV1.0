@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=NetQ3_1 Pin=Q3-1
+Removed Pin From Net: NetName=NetQ3_2 Pin=Q3-2
+Removed Pin From Net: NetName=AGND Pin=Q3-3
+Removed Pin From Net: NetName=NetQ3_1 Pin=R1-1
+Removed Pin From Net: NetName=NetQ3_2 Pin=R8-1
+Removed Pin From Net: NetName=NetQ3_2 Pin=R49-1
+Add Component: Footprint Not Found SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+Added Component: Designator=RELAY_YSJ2(JIDIANQI)
+Add Pin To Net: Unknown Pin: Pin Q3-1
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Added Pin To Net: NetName=NetQ3_2 Pin=R1-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R8-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R49-1
+Added Pin To Net: NetName=+24VDD Pin=RELAY_YSJ2-2
+Added Pin To Net: NetName=IN_L Pin=RELAY_YSJ2-3
+Added Pin To Net: NetName=AC_YSJ Pin=RELAY_YSJ2-4
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Change Room Name: Old Name=Designator_2 New Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

@@ -1,0 +1,10 @@
+Added Component: Designator=R52(0805R)
+Added Pin To Net: NetName=AGND Pin=R52-1
+Added Pin To Net: NetName=NetC32_1 Pin=R52-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator Member=Component R52 1.5K
+Change Room Name: Old Name=Designator_3 New Name=Designator
+Added Room: Name=Designator

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=CTRL_CSF Pin=*1-4
+Removed Pin From Net: NetName=CTRL_F1 Pin=*1-38
+Removed Pin From Net: NetName=CTRL_F2 Pin=*1-39
+Removed Pin From Net: NetName=CTRL_F3 Pin=*1-40
+Added Component: Designator=IC?(SO16)
+Added Pin To Net: NetName=DGND Pin=IC?-8
+Added Pin To Net: NetName=CTRL_CSF Pin=IC?-13
+Added Pin To Net: NetName=CTRL_F1 Pin=IC?-14
+Added Pin To Net: NetName=CTRL_F2 Pin=IC?-15
+Added Pin To Net: NetName=CTRL_F3 Pin=IC?-16
+Change Net Name : Old Net Name=CTRL_CBF New Net Name=CTRL_RelayB1
+Change Net Name : Old Net Name=CTRL_CKF New Net Name=CTRL_RelayB2
+Change Net Name : Old Net Name=CTRL_CSF New Net Name=RelayB2
+Change Net Name : Old Net Name=CTRL_F1 New Net Name=RelayB1
+Change Net Name : Old Net Name=CTRL_F2 New Net Name=RelayA2
+Change Net Name : Old Net Name=CTRL_F3 New Net Name=RelayA1
+Change Net Name : Old Net Name=CTRL_JSF New Net Name=CTRL_RelayA1
+Change Net Name : Old Net Name=CTRL_PSF New Net Name=CTRL_RelayA2
+Add Net: Net with name "CTRL_RelayA1" already exists
+Add Net: Net with name "CTRL_RelayA2" already exists
+Add Net: Net with name "CTRL_RelayB1" already exists
+Add Net: Net with name "CTRL_RelayB2" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

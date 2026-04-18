@@ -1,0 +1,58 @@
+Added Component: Designator=*(JIDIANQI)
+Added Component: Designator=Q3(SOT23)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Current (Ic)"; Value = "1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Cut-Off Current (Icbo)"; Value = "100nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector-Emitter Breakdown Voltage (Vceo)"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)"; Value = "500mV@800mA,80mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20231222/5BDA6DBF3A79C59009F81F0EEE6F8969.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain (hFE@Ic,Vce)"; Value = "120@100mA,1.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "SS8550_C7420371"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "ÄÍÑ¹:25V µçÁ÷:1.5A PNP Hµµ 200-350"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ºêåÈ³È"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SS8550"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55¡æ~+150¡æ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Pd)"; Value = "300mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SOT-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C7420371"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "SS8550_C7420371"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Type"; Value = "PNP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transition Frequency (fT)"; Value = "100MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=+24VDD Pin=*-2
+Added Pin To Net: NetName=IN_L Pin=*-3
+Added Pin To Net: NetName=AC_YSJ Pin=*-4
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-2
+Added Pin To Net: NetName=AGND Pin=Q3-3
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=a1
+Added Room: Name=a2
+Added Room: Name=b1
+Added Room: Name=b2
+Added Room: Name=b3
+Added Room: Name=c1
+Added Room: Name=c2
+Added Room: Name=c3
+Added Room: Name=d1
+Added Room: Name=d2
+Added Room: Name=d3
+Added Room: Name=d4
+Added Room: Name=d5
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=Designator5
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=main

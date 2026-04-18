@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+24VDD Pin=P13-1
+Removed Pin From Net: NetName=CGND Pin=P13-2
+Removed Member From Class: ClassName=Designator1 Member=P13
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Added Pin To Net: NetName=+24VDD Pin=P2-7
+Added Pin To Net: NetName=CGND Pin=P2-8
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

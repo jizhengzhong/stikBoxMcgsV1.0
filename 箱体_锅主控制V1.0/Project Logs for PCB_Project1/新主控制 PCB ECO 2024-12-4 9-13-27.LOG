@@ -1,0 +1,742 @@
+Change Component Comment : Designator=R37 Old Comment=#NAME? New Comment=RM10D471KD14E100
+Change Component Comment : Designator=R87_a1 Old Comment=#NAME? New Comment=RM10D471KD14E100
+Change Component Comment : Designator=R87_a2 Old Comment=#NAME? New Comment=RM10D471KD14E100
+Change Component Comment : Designator=R92_a1 Old Comment=#NAME? New Comment=RM10D471KD14E100
+Change Component Comment : Designator=R92_a2 Old Comment=#NAME? New Comment=RM10D471KD14E100
+Change Component Description : Designator=OP2_a1 Old Description=Optoisolator  品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=Optoisolator  品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP2_a2 Old Description=Optoisolator  品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=Optoisolator  品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=P8 Old Description=品牌： KEFA(科发)  KF7.62-3p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-3p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P12 Old Description=品牌： KEFA(科发)  KF7.62-3p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-3p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P9 Old Description=品牌： KEFA(科发)  KF7.62-4p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-4p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P7 Old Description=品牌： KEFA(科发)  KF7.62-6p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-6p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P11 Old Description=品牌： KEFA(科发)  KF7.62-6p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-6p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P1 Old Description=品牌： KEFA(科发)  KF7.62-10p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-10p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P10 Old Description=品牌： KEFA(科发)  KF7.62-10p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范 New Description=品牌： KEFA(科发)  KF7.62-10p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=1 Old Description=品牌： Megastar(兆星)    型号： ZX-XH2.54-4PZZ    参考系列：XH 间距：2.54mm 插针结构：1x4P 排数：1 每排PIN数：4 公母：公型插针 安装方式：直插 额定电流：3A 触头材质：黄铜 触头镀层：锡 工作温度范围：-25℃~+85℃ 焊接温度(最大值)：260℃ 配套 New Description=品牌： Megastar(兆星)    型号： ZX-XH2.54-4PZZ    参考系列：XH 间距：2.54mm 插针结构：1x4P 排数：1 每排PIN数：4 公母：公型插针 安装方式：直插 额定电流：3A 触头材质：黄铜 触头镀层：锡 工作温度范围：-25℃~+85℃ 焊接温度(最大值)：260℃ 配套胶壳型号： ZX-XH2.54-4PJK 配套端子型号： ZX-XH2.54-DZ
+Change Component Description : Designator=CR1 Old Description=品牌： MYOUNG(美阳)  型号： BS-02-A1AJ010  连接器类型：电池底座 适用电池规格：CR2032 工作温度范围：-25℃~+85℃ 插脚 卧式底座 环保吸? New Description=品牌： MYOUNG(美阳)  型号： BS-02-A1AJ010  连接器类型：电池底座 适用电池规格：CR2032 工作温度范围：-25℃~+85℃ 插脚 卧式底座 环保吸塑托盘包装
+Change Component Description : Designator=IC8 Old Description=品牌： onsemi(安森美)  型号： CAT24C32WI-GT3  接口类型：I2C 存储容量：32Kbit EEPROM 串行 32-Kb I2C CAT24C32 是一款 32-kb I2C 串行 EEPROM 器件，内部组织为 4096 个词，每个词 8 位。它具有 32 字节页写入缓存，支持标准 (100 kHz)、快速 (400 kHz) 和超快 (1 MHz) I2C ? New Description=品牌： onsemi(安森美)  型号： CAT24C32WI-GT3  接口类型：I2C 存储容量：32Kbit EEPROM 串行 32-Kb I2C CAT24C32 是一款 32-kb I2C 串行 EEPROM 器件，内部组织为 4096 个词，每个词 8 位。它具有 32 字节页写入缓存，支持标准 (100 kHz)、快速 (400 kHz) 和超快 (1 MHz) I2C 协议。外部地址引脚使其能够在同一个总线上放置最多八
+Change Component Description : Designator=C47 Old Description=品牌： SHM(南方宏明) 型号： DCF101K26Y5PQ6BL7A0 等级：X1,Y2 容值：100pF 精度：±10% 电压(AC)：250V；400V 安规瓷介电容器 Y2 101 ±10% Y2 250VAC；100pF；±10%；Y5P；D=6.8max；CP线 0.55mm；引脚长20min.mm；直脚/直引线 New Description=品牌： SHM(南方宏明) 型号： DCF101K26Y5PQ6BL7A0 等级：X1,Y2 容值：100pF 精度：±10% 电压(AC)：250V；400V 安规瓷介电容器 Y2 101 ±10% Y2 250VAC；100pF；±10%；Y5P；D=6.8max；CP线 0.55mm；引脚长20min.mm；直脚/直引线；引线间距7.5mm
+Change Component Description : Designator=IC3 Old Description=品牌： ST(意法半导体) 封装： TO-220 输出类型：固定 输出极性：负 最大输入电压：35V 输出电压：5V 输出电流：1.5A 电源纹波抑制比(PSRR)：60dB@(120H New Description=品牌： ST(意法半导体) 封装： TO-220 输出类型：固定 输出极性：负 最大输入电压：35V 输出电压：5V 输出电流：1.5A 电源纹波抑制比(PSRR)：60dB@(120Hz) 薄片 5.0V
+Change Component Description : Designator=IC10_b1 Old Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET  New Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET 输入通用运算放大器
+Change Component Description : Designator=IC10_b2 Old Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET  New Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET 输入通用运算放大器
+Change Component Description : Designator=IC10_b3 Old Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET  New Description=品牌： TI(德州仪器)   型号： TL072IDR  放大器组数：2 增益带宽积(GBP)：5.25MHz 压摆率(SR)：13V/us 输入失调电压(Vos)：3mV 输入偏置电流(Ib)：65pA TL072 双路低噪声 JFET 输入通用运算放大器
+Change Component Description : Designator=OP1_d1 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d2 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d3 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d4 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d5 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP3_a1 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP3_a2 Old Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR  New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=D1 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io) New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D2 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io) New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D7 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io) New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4001 极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：50V 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D25_a1 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D25_a2 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D27_a1 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=D27_a2 Old Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io New Description=品牌： TWGMC(台湾迪嘉) 型号： 1N4007 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A 二极管配置：独立式 直流反向耐压(Vr)：1kV 平均整流电流(Io)：1A 正向压降(Vf)：1.1V@1A
+Change Component Description : Designator=IC1 Old Description=品牌： UMW(友台半导体)  型号： L7805CV  输出类型：固定 输出极性：正 最大输入电压：35V 输出电压：5V 输出电流：1. New Description=品牌： UMW(友台半导体)  型号： L7805CV  输出类型：固定 输出极性：正 最大输入电压：35V 输出电压：5V 输出电流：1.2A
+Change Component Description : Designator=R41 Old Description=品牌： UNI-ROYAL(厚声) 型号： MFR0W4F3300A50 电阻类型：金属膜电阻 阻值：330Ω 精度：±1% 功率：250mW 温度系数：±50ppm/℃ 铜脚，圆柱状直插 New Description=品牌： UNI-ROYAL(厚声) 型号： MFR0W4F3300A50 电阻类型：金属膜电阻 阻值：330Ω 精度：±1% 功率：250mW 温度系数：±50ppm/℃ 铜脚，圆柱状直插 1/4W
+Change Component Description : Designator=R38 Old Description=品牌： UNI-ROYAL(厚声) 型号： MFR0W4F3600A50电阻类型：金属膜电阻 阻值：360Ω 精度：±1% 功率：250mW 温度系数：±50ppm/℃ 铜脚，圆柱状直插 New Description=品牌： UNI-ROYAL(厚声) 型号： MFR0W4F3600A50电阻类型：金属膜电阻 阻值：360Ω 精度：±1% 功率：250mW 温度系数：±50ppm/℃ 铜脚，圆柱状直插 1/4W
+Change Component Description : Designator=P3 Old Description=品牌： XFCN(兴飞) 型号： PZ254V-11-04P  排数：单排 总PIN位数：4P 间距：2.54mm 插针结构：1x4P 安装类型：直插 圆针/方针：方针 额定电流：3A 额定电压：250V 配合针长度：6mm 塑高：2.5mm 端接针长度：3m New Description=品牌： XFCN(兴飞) 型号： PZ254V-11-04P  排数：单排 总PIN位数：4P 间距：2.54mm 插针结构：1x4P 安装类型：直插 圆针/方针：方针 额定电流：3A 额定电压：250V 配合针长度：6mm 塑高：2.5mm 端接针长度：3mm 工作温度范围：-40℃~+105℃ 颜色：黑色
+Change Component Description : Designator=P4 Old Description=品牌： ZHOURI(洲日)   型号： DC3-2.54-20PAS  ：连接器类型：简牛座 间距：2.54mm 结构：2x10P 排数：2 每排PIN数：10 行距：2.54mm 封装形式：直插 额定电流：1.5A 工作温度范围：-40℃~+105℃ 简易牛 New Description=品牌： ZHOURI(洲日)   型号： DC3-2.54-20PAS  ：连接器类型：简牛座 间距：2.54mm 结构：2x10P 排数：2 每排PIN数：10 行距：2.54mm 封装形式：直插 额定电流：1.5A 工作温度范围：-40℃~+105℃ 简易牛角 2.54-2x10 ROHS 直插
+Change Component Description : Designator=R57 Old Description=品牌： 华星机电 型号： MF2WS-20Ω±1%T 电阻类型：金属膜电阻 阻值：20Ω 精度：±1% 功率：2W 温度系数：±200ppm/? New Description=品牌： 华星机电 型号： MF2WS-20Ω±1%T 电阻类型：金属膜电阻 阻值：20Ω 精度：±1% 功率：2W 温度系数：±200ppm/℃
+Change Component Description : Designator=D3 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D6 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D11_c1 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D11_c2 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D11_c3 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D26_a1 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D26_a2 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D28_a1 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D28_a2 Old Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温? New Description=品牌： 国星光电 型号： NCD0805B2 发光颜色：蓝灯 贴片LED；0805蓝色；2012蓝色；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃；
+Change Component Description : Designator=D8 Old Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mc New Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mcd 金线，光强高，功耗低，可靠性好，寿命长
+Change Component Description : Designator=D9 Old Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mc New Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mcd 金线，光强高，功耗低，可靠性好，寿命长
+Change Component Description : Designator=D10 Old Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mc New Description=品牌： 国星光电  型号： NCD0805G1  发光颜色：翠绿 贴片LED；0805翠绿；2012翠绿；透镜颜色：无色透明；发光角度：130°；功率：72mW；工作温度：-30℃~+85℃； 尺寸2.0*1.25*1.1；IF=5ma：2.5~3.6v，525~537.5nm,180~400mcd 金线，光强高，功耗低，可靠性好，寿命长
+Change component parameters: Designator = "1" ("1"); Footprint = "XH2.54-4P"; UniqueID = "\PQMHUMUX\BIYGAYCO\UFLICOCU" ("\PQMHUMUX\BIYGAYCO\UFLICOCU")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\PTGHSDVG" ("\DDWQHRCF\PTGHSDVG")
+Change component parameters (AddParameter): Name = "Value"; Value = "104P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\UWDHFABY" ("\DDWQHRCF\UWDHFABY")
+Change component parameters (AddParameter): Name = "Value"; Value = "104P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13" ("C13"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\DBKYKOCI" ("\DDWQHRCF\DBKYKOCI")
+Change component parameters (AddParameter): Name = "Value"; Value = "104P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CP1"; UniqueID = "\DDWQHRCF\MOHESVVJ" ("\DDWQHRCF\MOHESVVJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "683P 100V 5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16" ("C16"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\EQYTBKQV" ("\DDWQHRCF\EQYTBKQV")
+Change component parameters (AddParameter): Name = "Value"; Value = "104P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "CP1"; UniqueID = "\DDWQHRCF\MYYJXBUG" ("\DDWQHRCF\MYYJXBUG")
+Change component parameters (AddParameter): Name = "Value"; Value = "472P 100V 5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18" ("C18"); Footprint = "CP1"; UniqueID = "\DDWQHRCF\GHHMFWOI" ("\DDWQHRCF\GHHMFWOI")
+Change component parameters (AddParameter): Name = "Value"; Value = "472P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CP1"; UniqueID = "\DDWQHRCF\FMCWIRJA" ("\DDWQHRCF\FMCWIRJA")
+Change component parameters (AddParameter): Name = "Value"; Value = "683P 100V 5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C22" ("C22"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\BGWKPJTU" ("\DDWQHRCF\BGWKPJTU")
+Change component parameters (AddParameter): Name = "Value"; Value = "104P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23" ("C23"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\PGNMIAHA" ("\DDWQHRCF\PGNMIAHA")
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C24" ("C24"); Footprint = "0805C"; UniqueID = "\DDWQHRCF\BDCBEMEN" ("\DDWQHRCF\BDCBEMEN")
+Change component parameters (AddParameter): Name = "Value"; Value = "0.33uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33_b1" ("C33"); Footprint = "0805C"; UniqueID = "\1EIHNQRYV\CWMYLQKP" ("\1EIHNQRYV\CWMYLQKP")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33_b2" ("C33"); Footprint = "0805C"; UniqueID = "\2EIHNQRYV\CWMYLQKP" ("\2EIHNQRYV\CWMYLQKP")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33_b3" ("C33"); Footprint = "0805C"; UniqueID = "\3EIHNQRYV\CWMYLQKP" ("\3EIHNQRYV\CWMYLQKP")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C34_b1" ("C34"); Footprint = "0805C"; UniqueID = "\1EIHNQRYV\OOTRMPQI" ("\1EIHNQRYV\OOTRMPQI")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C34_b2" ("C34"); Footprint = "0805C"; UniqueID = "\2EIHNQRYV\OOTRMPQI" ("\2EIHNQRYV\OOTRMPQI")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C34_b3" ("C34"); Footprint = "0805C"; UniqueID = "\3EIHNQRYV\OOTRMPQI" ("\3EIHNQRYV\OOTRMPQI")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C35_b1" ("C35"); Footprint = "0805C"; UniqueID = "\1EIHNQRYV\KAHHOUCV" ("\1EIHNQRYV\KAHHOUCV")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C35_b2" ("C35"); Footprint = "0805C"; UniqueID = "\2EIHNQRYV\KAHHOUCV" ("\2EIHNQRYV\KAHHOUCV")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C35_b3" ("C35"); Footprint = "0805C"; UniqueID = "\3EIHNQRYV\KAHHOUCV" ("\3EIHNQRYV\KAHHOUCV")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36_b1" ("C36"); Footprint = "0805C"; UniqueID = "\1EIHNQRYV\UMYXQWWT" ("\1EIHNQRYV\UMYXQWWT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36_b2" ("C36"); Footprint = "0805C"; UniqueID = "\2EIHNQRYV\UMYXQWWT" ("\2EIHNQRYV\UMYXQWWT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36_b3" ("C36"); Footprint = "0805C"; UniqueID = "\3EIHNQRYV\UMYXQWWT" ("\3EIHNQRYV\UMYXQWWT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C47" ("C47"); Footprint = "C6-7.62"; UniqueID = "\QHXXUAIV\SMZHLEZB\DNMPBWGA" ("\QHXXUAIV\SMZHLEZB\DNMPBWGA")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3" ("D3"); Footprint = "0805LED"; UniqueID = "\QHXXUAIV\SMZHLEZB\NRLYUZFV" ("\QHXXUAIV\SMZHLEZB\NRLYUZFV")
+Change component parameters (AddParameter): Name = "Class"; Value = "Optoelectronic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "LED"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D6" ("D6"); Footprint = "0805LED"; UniqueID = "\DDWQHRCF\SCLSQVTG" ("\DDWQHRCF\SCLSQVTG")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D8" ("D8"); Footprint = "0805LED"; UniqueID = "\PQMHUMUX\HGMJKSCL" ("\PQMHUMUX\HGMJKSCL")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D9" ("D9"); Footprint = "0805LED"; UniqueID = "\PQMHUMUX\FLKITAPW" ("\PQMHUMUX\FLKITAPW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D10" ("D10"); Footprint = "0805LED"; UniqueID = "\PQMHUMUX\GGNDGCAK" ("\PQMHUMUX\GGNDGCAK")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D11_c1" ("D11"); Footprint = "0805LED"; UniqueID = "\1WCFRPCLV\TRCFABIA" ("\1WCFRPCLV\TRCFABIA")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D11_c2" ("D11"); Footprint = "0805LED"; UniqueID = "\2WCFRPCLV\TRCFABIA" ("\2WCFRPCLV\TRCFABIA")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D11_c3" ("D11"); Footprint = "0805LED"; UniqueID = "\3WCFRPCLV\TRCFABIA" ("\3WCFRPCLV\TRCFABIA")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D26_a1" ("D26"); Footprint = "0805LED"; UniqueID = "\QHXXUAIV\1YVDVAIYF\ZBAKSNJM" ("\QHXXUAIV\1YVDVAIYF\ZBAKSNJM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D26_a2" ("D26"); Footprint = "0805LED"; UniqueID = "\QHXXUAIV\2YVDVAIYF\ZBAKSNJM" ("\QHXXUAIV\2YVDVAIYF\ZBAKSNJM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D28_a1" ("D28"); Footprint = "0805LED"; UniqueID = "\QHXXUAIV\1YVDVAIYF\ROHLBOWX" ("\QHXXUAIV\1YVDVAIYF\ROHLBOWX")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D28_a2" ("D28"); Footprint = "0805LED"; UniqueID = "\QHXXUAIV\2YVDVAIYF\ROHLBOWX" ("\QHXXUAIV\2YVDVAIYF\ROHLBOWX")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "08-Jul-2005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Mech Layer 1 removed."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "LED; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LED-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "E2" ("E2"); Footprint = "3528"; UniqueID = "\DDWQHRCF\ESMUJSCY" ("\DDWQHRCF\ESMUJSCY")
+Change component parameters (AddParameter): Name = "Value"; Value = "100uf/16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "E3" ("E3"); Footprint = "3528"; UniqueID = "\DDWQHRCF\YAWVOINN" ("\DDWQHRCF\YAWVOINN")
+Change component parameters (AddParameter): Name = "Value"; Value = "100uf/16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P1" ("P1"); Footprint = "CONN-TH-KF7.62-10P"; UniqueID = "\DKYNOWVO" ("\DKYNOWVO")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3" ("P3"); Footprint = "HDR1X4"; UniqueID = "\LKODVMOO" ("\LKODVMOO")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P4" ("P4"); Footprint = "HDR-TH_20P-P2.54_DC3-2.54-20PAS"; UniqueID = "\XDYEGRIN" ("\XDYEGRIN")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P7" ("P7"); Footprint = "CONN-TH_6P-P7.62_WJ25C-B-7.62-6P"; UniqueID = "\CKUCOYOR" ("\CKUCOYOR")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P8" ("P8"); Footprint = "CONN-TH-KF7.62-3P"; UniqueID = "\DDWQHRCF\PQDGWAAH" ("\DDWQHRCF\PQDGWAAH")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P9" ("P9"); Footprint = "CONN-TH_KF7.62-4P"; UniqueID = "\DDWQHRCF\OYSEAFEI" ("\DDWQHRCF\OYSEAFEI")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P10" ("P10"); Footprint = "CONN-TH-KF7.62-10P"; UniqueID = "\PQMHUMUX\NBQBRFHK" ("\PQMHUMUX\NBQBRFHK")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P11" ("P11"); Footprint = "CONN-TH_6P-P7.62_WJ25C-B-7.62-6P"; UniqueID = "\PQMHUMUX\BIYGAYCO\CNODHANW" ("\PQMHUMUX\BIYGAYCO\CNODHANW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P12" ("P12"); Footprint = "CONN-TH_KF7.62-3p"; UniqueID = "\QHXXUAIV\SMZHLEZB\VEUWUEKA" ("\QHXXUAIV\SMZHLEZB\VEUWUEKA")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1_c1" ("Q1"); Footprint = "SOT-23"; UniqueID = "\1WCFRPCLV\RFJNCLUQ" ("\1WCFRPCLV\RFJNCLUQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.fairchildsemi.com/ds/2N%2F2N3904.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "1997"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jan-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "PCB Footprint 'BCY-W3/D4.7' replaced"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.5mm; Leads 0.51 x 0.48 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TO-92A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1_c2" ("Q1"); Footprint = "SOT-23"; UniqueID = "\2WCFRPCLV\RFJNCLUQ" ("\2WCFRPCLV\RFJNCLUQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.fairchildsemi.com/ds/2N%2F2N3904.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "1997"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jan-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "PCB Footprint 'BCY-W3/D4.7' replaced"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.5mm; Leads 0.51 x 0.48 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TO-92A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1_c3" ("Q1"); Footprint = "SOT-23"; UniqueID = "\3WCFRPCLV\RFJNCLUQ" ("\3WCFRPCLV\RFJNCLUQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.fairchildsemi.com/ds/2N%2F2N3904.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "1997"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jan-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "PCB Footprint 'BCY-W3/D4.7' replaced"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.5mm; Leads 0.51 x 0.48 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TO-92A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "SOT-23"; UniqueID = "\PQMHUMUX\BIYGAYCO\OKMVVSJW" ("\PQMHUMUX\BIYGAYCO\OKMVVSJW")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.fairchildsemi.com/ds/2N%2F2N3904.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "1997"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "15-Jan-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "PCB Footprint 'BCY-W3/D4.7' replaced"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.5mm; Leads 0.51 x 0.48 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TO-92A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Sep-1998"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "0805R"; UniqueID = "\DDWQHRCF\FLIAUFLY" ("\DDWQHRCF\FLIAUFLY")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21_b1" ("R21"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\BQBFFIKJ" ("\1EIHNQRYV\BQBFFIKJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21_b2" ("R21"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\BQBFFIKJ" ("\2EIHNQRYV\BQBFFIKJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21_b3" ("R21"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\BQBFFIKJ" ("\3EIHNQRYV\BQBFFIKJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22_b1" ("R22"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\OMWXXUPM" ("\1EIHNQRYV\OMWXXUPM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "13k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22_b2" ("R22"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\OMWXXUPM" ("\2EIHNQRYV\OMWXXUPM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "13k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22_b3" ("R22"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\OMWXXUPM" ("\3EIHNQRYV\OMWXXUPM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "13k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23_b1" ("R23"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\WQQURWHT" ("\1EIHNQRYV\WQQURWHT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23_b2" ("R23"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\WQQURWHT" ("\2EIHNQRYV\WQQURWHT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23_b3" ("R23"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\WQQURWHT" ("\3EIHNQRYV\WQQURWHT")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24_b1" ("R24"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\DOMJPSNE" ("\1EIHNQRYV\DOMJPSNE")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24_b2" ("R24"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\DOMJPSNE" ("\2EIHNQRYV\DOMJPSNE")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24_b3" ("R24"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\DOMJPSNE" ("\3EIHNQRYV\DOMJPSNE")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25_b1" ("R25"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\BOGJLWNW" ("\1EIHNQRYV\BOGJLWNW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25_b2" ("R25"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\BOGJLWNW" ("\2EIHNQRYV\BOGJLWNW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25_b3" ("R25"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\BOGJLWNW" ("\3EIHNQRYV\BOGJLWNW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26_b1" ("R26"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\TLTXOERH" ("\1EIHNQRYV\TLTXOERH")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26_b2" ("R26"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\TLTXOERH" ("\2EIHNQRYV\TLTXOERH")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26_b3" ("R26"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\TLTXOERH" ("\3EIHNQRYV\TLTXOERH")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27_b1" ("R27"); Footprint = "0805R"; UniqueID = "\1EIHNQRYV\HYRQTVGJ" ("\1EIHNQRYV\HYRQTVGJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27_b2" ("R27"); Footprint = "0805R"; UniqueID = "\2EIHNQRYV\HYRQTVGJ" ("\2EIHNQRYV\HYRQTVGJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27_b3" ("R27"); Footprint = "0805R"; UniqueID = "\3EIHNQRYV\HYRQTVGJ" ("\3EIHNQRYV\HYRQTVGJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k(0.1%)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28_c1" ("R28"); Footprint = "0805R"; UniqueID = "\1WCFRPCLV\OOCQUOWQ" ("\1WCFRPCLV\OOCQUOWQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28_c2" ("R28"); Footprint = "0805R"; UniqueID = "\2WCFRPCLV\OOCQUOWQ" ("\2WCFRPCLV\OOCQUOWQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28_c3" ("R28"); Footprint = "0805R"; UniqueID = "\3WCFRPCLV\OOCQUOWQ" ("\3WCFRPCLV\OOCQUOWQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29_c1" ("R29"); Footprint = "0805R"; UniqueID = "\1WCFRPCLV\HVPCKBEQ" ("\1WCFRPCLV\HVPCKBEQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29_c2" ("R29"); Footprint = "0805R"; UniqueID = "\2WCFRPCLV\HVPCKBEQ" ("\2WCFRPCLV\HVPCKBEQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29_c3" ("R29"); Footprint = "0805R"; UniqueID = "\3WCFRPCLV\HVPCKBEQ" ("\3WCFRPCLV\HVPCKBEQ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34" ("R34"); Footprint = "0805R"; UniqueID = "\PQMHUMUX\BIYGAYCO\CNBFWFRL" ("\PQMHUMUX\BIYGAYCO\CNBFWFRL")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R35" ("R35"); Footprint = "0805R"; UniqueID = "\PQMHUMUX\BIYGAYCO\MHNEITWN" ("\PQMHUMUX\BIYGAYCO\MHNEITWN")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38" ("R38"); Footprint = "AXIAL0.4"; UniqueID = "\QHXXUAIV\SMZHLEZB\GVAEKYFM" ("\QHXXUAIV\SMZHLEZB\GVAEKYFM")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R39" ("R39"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\SMZHLEZB\QZNWMYDS" ("\QHXXUAIV\SMZHLEZB\QZNWMYDS")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R40" ("R40"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\SMZHLEZB\IKMRVTRS" ("\QHXXUAIV\SMZHLEZB\IKMRVTRS")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41" ("R41"); Footprint = "AXIAL0.4"; UniqueID = "\QHXXUAIV\SMZHLEZB\TCGEJOYO" ("\QHXXUAIV\SMZHLEZB\TCGEJOYO")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R42" ("R42"); Footprint = "0805R"; UniqueID = "\ICNHANMD\ISWKHWAY" ("\ICNHANMD\ISWKHWAY")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "0805R"; UniqueID = "\ICNHANMD\SRDDCZQF" ("\ICNHANMD\SRDDCZQF")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R44" ("R44"); Footprint = "0805R"; UniqueID = "\ICNHANMD\OKDSALRV" ("\ICNHANMD\OKDSALRV")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45" ("R45"); Footprint = "0805R"; UniqueID = "\ICNHANMD\SOQCRKNV" ("\ICNHANMD\SOQCRKNV")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46" ("R46"); Footprint = "0805R"; UniqueID = "\ICNHANMD\CHAJBQNW" ("\ICNHANMD\CHAJBQNW")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R47" ("R47"); Footprint = "0805R"; UniqueID = "\ICNHANMD\RDAFJSUP" ("\ICNHANMD\RDAFJSUP")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R57" ("R57"); Footprint = "AXIAL0.6"; UniqueID = "\QHXXUAIV\SMZHLEZB\UHSPUHKL" ("\QHXXUAIV\SMZHLEZB\UHSPUHKL")
+Change component parameters (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R86_a1" ("R86"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\1YVDVAIYF\GIILPNYW" ("\QHXXUAIV\1YVDVAIYF\GIILPNYW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R86_a2" ("R86"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\2YVDVAIYF\GIILPNYW" ("\QHXXUAIV\2YVDVAIYF\GIILPNYW")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R91_a1" ("R91"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\1YVDVAIYF\ABBDALLB" ("\QHXXUAIV\1YVDVAIYF\ABBDALLB")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R91_a2" ("R91"); Footprint = "0805R"; UniqueID = "\QHXXUAIV\2YVDVAIYF\ABBDALLB" ("\QHXXUAIV\2YVDVAIYF\ABBDALLB")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+24VDD Pin=P6-2
+Added Pin To Net: NetName=+24VDD Pin=R30_d1-1
+Added Pin To Net: NetName=+24VDD Pin=R30_d2-1
+Added Pin To Net: NetName=+24VDD Pin=R30_d3-1
+Added Pin To Net: NetName=+24VDD Pin=R30_d4-1
+Added Pin To Net: NetName=+24VDD Pin=R30_d5-1
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Class: Name=In_put 
+Added Room: Name=a1
+Added Room: Name=a2
+Added Room: Name=b1
+Added Room: Name=b2
+Added Room: Name=b3
+Added Room: Name=c1
+Added Room: Name=c2
+Added Room: Name=c3
+Added Room: Name=d1
+Added Room: Name=d2
+Added Room: Name=d3
+Added Room: Name=d4
+Added Room: Name=d5
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=Designator5
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=main

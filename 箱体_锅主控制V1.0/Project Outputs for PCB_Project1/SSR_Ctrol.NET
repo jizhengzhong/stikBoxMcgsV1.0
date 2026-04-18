@@ -1,0 +1,1247 @@
+Wire List
+
+<<< Component List >>>
+Other                           *1             STM-LQFP100_N
+Header 4                        1              XH2.54-4P
+RS206                           B1             KBP206
+RS406                           B2             KPL406
+RS206                           B3             KBP206
+10pF                            C1             0805C
+10pF                            C2             0805C
+20pF                            C3             0805C
+20pF                            C4             0805C
+104                             C5             0805C
+105                             C6             0805C
+103                             C7             0805C
+104P                            C8             0805C
+2.2uF                           C9             0805C
+2.2uF                           C10            0805C
+0.1uF                           C11            0805C
+2.2uF                           C12            0805C
+0.1uF                           C13            0805C
+0.1uF                           C14            0805C
+683P 100V 5mm                   C15            CP1
+104P                            C16            0805C
+472P 100V 5mm                   C17            CP1
+472P                            C18            CP1
+104P                            C19            0805C
+683P 100V 5mm                   C20            CP1
+104P                            C21            0805C
+0.1uF                           C22            0805C
+0.1uF                           C23            0805C
+0.33uF                          C24            0805C
+1uF                             C25            0805C
+4.7uF                           C26            0805C
+104P                            C27            0805C
+0.1uF                           C28            0805C
+0.1uF                           C29            0805C
+0.1uF                           C30            0805C
+0.1uF                           C31            0805C
+0.1uF                           C32            0805C
+0.1nF                           C33_b1         0805C
+0.1nF                           C33_b2         0805C
+0.1nF                           C33_b3         0805C
+0.1uF                           C34_b1         0805C
+0.1uF                           C34_b2         0805C
+0.1uF                           C34_b3         0805C
+0.1uF                           C35_b1         0805C
+0.1uF                           C35_b2         0805C
+0.1uF                           C35_b3         0805C
+0.1uF                           C36_b1         0805C
+0.1uF                           C36_b2         0805C
+0.1uF                           C36_b3         0805C
+0.1uF/25V                       C37            0805C
+0.1uF                           C38            0805C
+0.1uF/25V                       C39            0805C
+0.1uF                           C40            0805C
+0.1uF/25V                       C41            0805C
+0.1uF/25V                       C42            0805C
+101/250V                        C43_c1         C6-7.62
+101/250V                        C43_c2         C6-7.62
+101/250V                        C43_c3         C6-7.62
+3V                              CR1            BATT
+1N4001                          D1             SK24
+1N4001                          D2             SK24
+1N4001                          D3             SK24
+LED0                            D4             0805LED
+SK24                            D5             SK24
+LED0                            D6             0805LED
+1N4001                          D7             SK24
+LED0                            D8             0805LED
+LED0                            D9             0805LED
+LED0                            D10            0805LED
+LED0                            D11_c1         0805LED
+LED0                            D11_c2         0805LED
+LED0                            D11_c3         0805LED
+                                D12_c1         0805LED
+                                D12_c2         0805LED
+                                D12_c3         0805LED
+10uf/16V                        E1             3528
+100uf/16V                       E2             3528
+100uf/16V                       E3             3528
+100uf/16V                       E4             3528
+1000uf/25V                      E5             EC5.08-10.5
+1000uf/25V                      E6             EC5.08-10.5
+1000uf/25V                      E7             EC5.08-10.5
+2200uf/50V                      E8             EC5.08-13.5
+L7805CV                         IC1            DPAK3
+L7805CV                         IC2            DPAK3
+L7905CV                         IC3            DPAK3
+TL431                           IC4            SO8
+LM2596                          IC5            TO-263-LM2596
+L7815CV-DG                      IC6            DPAK3
+LP5907MFX-3.3                   IC7            SOT-23-5
+CAT24C32                        IC8            SO8
+LM2904M/TR                      IC9            LM2904M/TR
+TL072ID                         IC10_b1        SOP8
+TL072ID                         IC10_b2        SOP8
+TL072ID                         IC10_b3        SOP8
+CDSOT23-SM712                   IC11           SOT23
+MOC3083                         IC12_c1        DIP6
+MOC3083                         IC12_c2        DIP6
+MOC3083                         IC12_c3        DIP6
+10uH                            L1             L 0805
+10uH                            L2             L 0805
+INDUCTOR2                       L3             L47UH
+共模电感                            L4             TRANS
+TLV-356                         OP1_d1         TLV-356
+TLV-356                         OP1_d2         TLV-356
+TLV-356                         OP1_d3         TLV-356
+TLV-356                         OP1_d4         TLV-356
+TLV-356                         OP1_d5         TLV-356
+Header 6                        P1             CONN-TH-KF7.62-10P
+Header 6                        P2             CONN-TH-KF7.62-10P
+Header 4                        P3             HDR1X4
+Header 10X2                     P4             HDR-TH_20P-P2.54_DC3-2.54-20P
+Header 10X2                     P5             HDR-TH_20P-P2.54_DC3-2.54-20P
+Header 2                        P6_c1          HDR1X2
+Header 2                        P6_c2          HDR1X2
+Header 2                        P6_c3          HDR1X2
+Header 6                        P7             CONN-TH_6P-P7.62_WJ25C-B-7.62
+Header 3                        P8             CONN-TH-KF7.62-3P
+Header 4                        P9             CONN-TH_KF7.62-4P
+Header 10                       P10            CONN-TH-KF7.62-10P
+Header 6                        P11            CONN-TH_6P-P7.62_WJ25C-B-7.62
+Header 2                        P12_c1         HDR1X2
+Header 2                        P12_c2         HDR1X2
+Header 2                        P12_c3         HDR1X2
+2N3904                          Q1_c1          SOT-23
+2N3904                          Q1_c2          SOT-23
+2N3904                          Q1_c3          SOT-23
+2N3904                          Q2             SOT-23
+1M                              R1             0805R
+1M                              R2             0805R
+100k                            R3             0805R
+10K                             R4             0805R
+220                             R5             0805R
+10K                             R6             0805R
+10K                             R7             0805R
+4.7K                            R8             0805R
+10K                             R9             0805R
+10K                             R10            0805R
+10K                             R11            0805R
+10K                             R12            0805R
+10K                             R13            0805R
+300/0.125W                      R14            0805R
+300/0.125W                      R15            0805R
+300                             R16            0805R
+1K                              R17            0805R
+1K                              R18            0805R
+1K                              R19            0805R
+1K                              R20            0805R
+10M                             R21_b1         0805R
+10M                             R21_b2         0805R
+10M                             R21_b3         0805R
+13k(0.1%)                       R22_b1         0805R
+13k(0.1%)                       R22_b2         0805R
+13k(0.1%)                       R22_b3         0805R
+1k(0.1%)                        R23_b1         0805R
+1k(0.1%)                        R23_b2         0805R
+1k(0.1%)                        R23_b3         0805R
+4.7k(0.1%)                      R24_b1         0805R
+4.7k(0.1%)                      R24_b2         0805R
+4.7k(0.1%)                      R24_b3         0805R
+4.7K                            R25_b1         0805R
+4.7K                            R25_b2         0805R
+4.7K                            R25_b3         0805R
+1k(0.1%)                        R26_b1         0805R
+1k(0.1%)                        R26_b2         0805R
+1k(0.1%)                        R26_b3         0805R
+1k(0.1%)                        R27_b1         0805R
+1k(0.1%)                        R27_b2         0805R
+1k(0.1%)                        R27_b3         0805R
+10K                             R28_c1         0805R
+10K                             R28_c2         0805R
+10K                             R28_c3         0805R
+1K                              R29_c1         0805R
+1K                              R29_c2         0805R
+1K                              R29_c3         0805R
+4.7K                            R30_d1         0805R
+4.7K                            R30_d2         0805R
+4.7K                            R30_d3         0805R
+4.7K                            R30_d4         0805R
+4.7K                            R30_d5         0805R
+10K                             R31_d1         0805R
+10K                             R31_d2         0805R
+10K                             R31_d3         0805R
+10K                             R31_d4         0805R
+10K                             R31_d5         0805R
+10K                             R32            0805R
+1K                              R33            0805R
+10K                             R34            0805R
+10K                             R35            0805R
+10K/0.125W                      R36            0805R
+360                             R37_c1         AXIAL0.4
+360                             R37_c2         AXIAL0.4
+360                             R37_c3         AXIAL0.4
+150                             R38_c1         0805R
+150                             R38_c2         0805R
+150                             R38_c3         0805R
+3.3K                            R39_c1         0805R
+3.3K                            R39_c2         0805R
+3.3K                            R39_c3         0805R
+330                             R40_c1         AXIAL0.4
+330                             R40_c2         AXIAL0.4
+330                             R40_c3         AXIAL0.4
+20/2W                           R41_c1         AXIAL0.6
+20/2W                           R41_c2         AXIAL0.6
+20/2W                           R41_c3         AXIAL0.6
+RESET                           S1             TSW SMD-3*6*2.5
+BT139                           T1_c1          TO220E
+BT139                           T1_c2          TO220E
+BT139                           T1_c3          TO220E
+                                TP_1           TPP
+                                TP_+1          TPP
+                                TP_VA1         TPP
+                                TP_VRef1       TPP
+                                TP_VSS1        TPP
+MAX3232                         U1             SO16
+MAX3485EESA                     U2             SOP8
+32.768                          Y1             XTAL6
+8M                              Y2             XTAL3
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] NetQ1_c3_1
+        Q1_c3      1       B              PASSIVE     2N3904
+        R29_c3     2       2              PASSIVE     1K
+
+[00002] NetIC12_c3_6
+        IC12_c3    6       A/K            PASSIVE     MOC3083
+        R37_c3     2       2              PASSIVE     360
+
+[00003] NetIC12_c3_4
+        IC12_c3    4       A/K            PASSIVE     MOC3083
+        R40_c3     1       1              PASSIVE     330
+        T1_c3      3       G              PASSIVE     BT139
+
+[00004] NetIC12_c3_1
+        IC12_c3    1       A              PASSIVE     MOC3083
+        R38_c3     2       2              PASSIVE     150
+
+[00005] NetD12_c3_1
+        D12_c3     1       A              PASSIVE     
+        R39_c3     1       1              PASSIVE     3.3K
+
+[00006] NetD11_c3_2
+        D11_c3     2       K              PASSIVE     LED0
+        Q1_c3      3       C              PASSIVE     2N3904
+
+[00007] NetC43_c3_2
+        C43_c3     2       2              PASSIVE     101/250V
+        R41_c3     1       1              PASSIVE     20/2W
+
+[00008] IN_c3_N
+        C43_c3     1       1              PASSIVE     101/250V
+        P6_c3      1       1              PASSIVE     Header 2
+        P12_c3     2       2              PASSIVE     Header 2
+
+[00009] IN_L_c3
+        P6_c3      2       2              PASSIVE     Header 2
+        R37_c3     1       1              PASSIVE     360
+        T1_c3      2       M2             PASSIVE     BT139
+
+[00010] AC_CBF_c3
+        P12_c3     1       1              PASSIVE     Header 2
+        R40_c3     2       2              PASSIVE     330
+        R41_c3     2       2              PASSIVE     20/2W
+        T1_c3      1       M1             PASSIVE     BT139
+
+[00011] +3.3V_c3
+        R38_c3     1       1              PASSIVE     150
+        R39_c3     2       2              PASSIVE     3.3K
+
+[00012] NetQ1_c2_1
+        Q1_c2      1       B              PASSIVE     2N3904
+        R29_c2     2       2              PASSIVE     1K
+
+[00013] NetIC12_c2_6
+        IC12_c2    6       A/K            PASSIVE     MOC3083
+        R37_c2     2       2              PASSIVE     360
+
+[00014] NetIC12_c2_4
+        IC12_c2    4       A/K            PASSIVE     MOC3083
+        R40_c2     1       1              PASSIVE     330
+        T1_c2      3       G              PASSIVE     BT139
+
+[00015] NetIC12_c2_1
+        IC12_c2    1       A              PASSIVE     MOC3083
+        R38_c2     2       2              PASSIVE     150
+
+[00016] NetD12_c2_1
+        D12_c2     1       A              PASSIVE     
+        R39_c2     1       1              PASSIVE     3.3K
+
+[00017] NetD11_c2_2
+        D11_c2     2       K              PASSIVE     LED0
+        Q1_c2      3       C              PASSIVE     2N3904
+
+[00018] NetC43_c2_2
+        C43_c2     2       2              PASSIVE     101/250V
+        R41_c2     1       1              PASSIVE     20/2W
+
+[00019] IN_c2_N
+        C43_c2     1       1              PASSIVE     101/250V
+        P6_c2      1       1              PASSIVE     Header 2
+        P12_c2     2       2              PASSIVE     Header 2
+
+[00020] IN_L_c2
+        P6_c2      2       2              PASSIVE     Header 2
+        R37_c2     1       1              PASSIVE     360
+        T1_c2      2       M2             PASSIVE     BT139
+
+[00021] AC_CBF_c2
+        P12_c2     1       1              PASSIVE     Header 2
+        R40_c2     2       2              PASSIVE     330
+        R41_c2     2       2              PASSIVE     20/2W
+        T1_c2      1       M1             PASSIVE     BT139
+
+[00022] +3.3V_c2
+        R38_c2     1       1              PASSIVE     150
+        R39_c2     2       2              PASSIVE     3.3K
+
+[00023] NetQ1_c1_1
+        Q1_c1      1       B              PASSIVE     2N3904
+        R29_c1     2       2              PASSIVE     1K
+
+[00024] NetIC12_c1_6
+        IC12_c1    6       A/K            PASSIVE     MOC3083
+        R37_c1     2       2              PASSIVE     360
+
+[00025] NetIC12_c1_4
+        IC12_c1    4       A/K            PASSIVE     MOC3083
+        R40_c1     1       1              PASSIVE     330
+        T1_c1      3       G              PASSIVE     BT139
+
+[00026] NetIC12_c1_1
+        IC12_c1    1       A              PASSIVE     MOC3083
+        R38_c1     2       2              PASSIVE     150
+
+[00027] NetD12_c1_1
+        D12_c1     1       A              PASSIVE     
+        R39_c1     1       1              PASSIVE     3.3K
+
+[00028] NetD11_c1_2
+        D11_c1     2       K              PASSIVE     LED0
+        Q1_c1      3       C              PASSIVE     2N3904
+
+[00029] NetC43_c1_2
+        C43_c1     2       2              PASSIVE     101/250V
+        R41_c1     1       1              PASSIVE     20/2W
+
+[00030] IN_c1_N
+        C43_c1     1       1              PASSIVE     101/250V
+        P6_c1      1       1              PASSIVE     Header 2
+        P12_c1     2       2              PASSIVE     Header 2
+
+[00031] IN_L_c1
+        P6_c1      2       2              PASSIVE     Header 2
+        R37_c1     1       1              PASSIVE     360
+        T1_c1      2       M2             PASSIVE     BT139
+
+[00032] AC_CBF_c1
+        P12_c1     1       1              PASSIVE     Header 2
+        R40_c1     2       2              PASSIVE     330
+        R41_c1     2       2              PASSIVE     20/2W
+        T1_c1      1       M1             PASSIVE     BT139
+
+[00033] +3.3V_c1
+        R38_c1     1       1              PASSIVE     150
+        R39_c1     2       2              PASSIVE     3.3K
+
+[00035] NetIC7_3
+        IC7        3       EN             PASSIVE     LP5907MFX-3.3
+        R8         2       2              PASSIVE     4.7K
+
+[00038] NetD6_1
+        D6         1       A              PASSIVE     LED0
+        R7         1       1              PASSIVE     10K
+
+[00039] NetD5_2
+        D5         2       K              PASSIVE     SK24
+        IC5        2       VO             PASSIVE     LM2596
+        L3         1       1              PASSIVE     INDUCTOR2
+
+[00040] NetD4_1
+        D4         1       A              PASSIVE     LED0
+        R6         1       1              PASSIVE     10K
+
+[00041] NetC17_2
+        C17        2       2              PASSIVE     472P 100V 5mm
+        L4         1       1              PASSIVE     共模电感
+        P8         1       1              PASSIVE     Header 3
+
+[00042] NetC8_1
+        C8         1       1              PASSIVE     104P
+        E1         2       2              PASSIVE     10uf/16V
+
+[00043] NetB3_4
+        B3         4       V-             PASSIVE     RS206
+        C23        2       2              PASSIVE     0.1uF
+        C24        2       2              PASSIVE     0.33uF
+        D6         2       K              PASSIVE     LED0
+        D7         1       A              PASSIVE     1N4001
+        IC6        2       GND            PASSIVE     L7815CV-DG
+
+[00044] NetB3_3
+        B3         3       AC             PASSIVE     RS206
+        P9         1       1              PASSIVE     Header 4
+
+[00045] NetB3_2
+        B3         2       AC             PASSIVE     RS206
+        P9         2       2              PASSIVE     Header 4
+
+[00046] NetB3_1
+        B3         1       V+             PASSIVE     RS206
+        C24        1       1              PASSIVE     0.33uF
+        IC6        1       VIN            PASSIVE     L7815CV-DG
+
+[00047] NetB2_3
+        B2         3       AC             PASSIVE     RS406
+        P9         4       4              PASSIVE     Header 4
+
+[00048] NetB1_3
+        B1         3       AC             PASSIVE     RS206
+        C18        2       2              PASSIVE     472P
+        C20        2       2              PASSIVE     683P 100V 5mm
+        L4         3       3              PASSIVE     共模电感
+
+[00049] NetB1_2
+        B1         2       AC             PASSIVE     RS206
+        C15        1       1              PASSIVE     683P 100V 5mm
+        C18        1       1              PASSIVE     472P
+        L4         4       4              PASSIVE     共模电感
+
+[00050] EGND
+        C15        2       2              PASSIVE     683P 100V 5mm
+        C20        1       1              PASSIVE     683P 100V 5mm
+
+[00051] AC_17V
+        B2         2       AC             PASSIVE     RS406
+        P9         3       3              PASSIVE     Header 4
+
+[00052] AC_9V
+        C17        1       1              PASSIVE     472P 100V 5mm
+        L4         2       2              PASSIVE     共模电感
+        P8         3       3              PASSIVE     Header 3
+
+[00053] -12V
+        B1         4       V-             PASSIVE     RS206
+        C10        1       1              PASSIVE     2.2uF
+        C21        2       2              PASSIVE     104P
+        E7         2       2              PASSIVE     1000uf/25V
+        IC3        2       VIN            PASSIVE     L7905CV
+
+[00054] +15V
+        C23        1       1              PASSIVE     0.1uF
+        D7         2       K              PASSIVE     1N4001
+        IC6        3       VO             PASSIVE     L7815CV-DG
+        R7         2       2              PASSIVE     10K
+
+[00055] RS485_B
+        IC11       2                      PASSIVE     CDSOT23-SM712
+        P11        2       2              PASSIVE     Header 6
+        R32        2       2              PASSIVE     10K
+        R33        1       1              PASSIVE     1K
+        U2         7       B              PASSIVE     MAX3485EESA
+
+[00056] RS485_A
+        IC11       1                      PASSIVE     CDSOT23-SM712
+        P11        1       1              PASSIVE     Header 6
+        R33        2       2              PASSIVE     1K
+        R36        1       1              PASSIVE     10K/0.125W
+        U2         6       A              PASSIVE     MAX3485EESA
+
+[00057] NetQ2_1
+        Q2         1       B              PASSIVE     2N3904
+        R35        2       2              PASSIVE     10K
+
+[00058] NetC42_1
+        C42        1       1              PASSIVE     0.1uF/25V
+        U1         6       V-             PASSIVE     MAX3232
+
+[00059] NetC41_2
+        C41        2       2              PASSIVE     0.1uF/25V
+        U1         5       C2-            PASSIVE     MAX3232
+
+[00060] NetC41_1
+        C41        1       1              PASSIVE     0.1uF/25V
+        U1         4       C2+            PASSIVE     MAX3232
+
+[00061] NetC39_2
+        C39        2       2              PASSIVE     0.1uF/25V
+        U1         1       C1+            PASSIVE     MAX3232
+
+[00062] NetC39_1
+        C39        1       1              PASSIVE     0.1uF/25V
+        U1         3       C1-            PASSIVE     MAX3232
+
+[00063] NetC37_1
+        C37        1       1              PASSIVE     0.1uF/25V
+        U1         2       V+             PASSIVE     MAX3232
+
+[00064] EXT_TXD3
+        1          2       2              PASSIVE     Header 4
+        U1         14      T1OUT          PASSIVE     MAX3232
+
+[00065] EXT_TXD2
+        P11        4       4              PASSIVE     Header 6
+        U1         7       T2OUT          PASSIVE     MAX3232
+
+[00066] EXT_RXD3
+        1          3       3              PASSIVE     Header 4
+        U1         13      R1IN           PASSIVE     MAX3232
+
+[00067] EXT_RXD2
+        P11        5       5              PASSIVE     Header 6
+        U1         8       R2IN           PASSIVE     MAX3232
+
+[00068] VDDA
+        *1         22      VDDA           POWER       Other
+        C6         2       2              PASSIVE     105
+        C7         1       1              PASSIVE     103
+        L1         2       2              PASSIVE     10uH
+
+[00069] Net*1_94
+        *1         94      BOOT0          INPUT       Other
+        R3         2       2              PASSIVE     100k
+
+[00071] Net*1_14
+        *1         14      NRST           I/O         Other
+        C5         2       2              PASSIVE     104
+        R4         1       1              PASSIVE     10K
+        S1         1       1              PASSIVE     RESET
+
+[00072] Net*1_13
+        *1         13      OSC_OUT        OUTPUT      Other
+        C4         1       1              PASSIVE     20pF
+        R2         2       2              PASSIVE     1M
+        Y2         2       2              PASSIVE     8M
+
+[00073] Net*1_12
+        *1         12      OSC_IN         INPUT       Other
+        C3         1       1              PASSIVE     20pF
+        R2         1       1              PASSIVE     1M
+        Y2         1       1              PASSIVE     8M
+
+[00074] Net*1_6
+        *1         6       VBAT           POWER       Other
+        CR1        1       +              PASSIVE     3V
+
+[00078] UV_ADC3
+        *1         34      PC5/ADC12_IN15 I/O         Other
+        P4         6       6              PASSIVE     Header 10X2
+
+[00079] UV_ADC2
+        *1         33      PC4/ADC12_IN14 I/O         Other
+        P4         4       4              PASSIVE     Header 10X2
+
+[00080] UV_ADC1
+        *1         18      PC3/ADC123_IN13I/O         Other
+        P4         2       2              PASSIVE     Header 10X2
+
+[00081] SSR-3
+        D11_c3     1       A              PASSIVE     LED0
+        P7         6       6              PASSIVE     Header 6
+        R28_c3     1       1              PASSIVE     10K
+
+[00082] SSR-2
+        D11_c2     1       A              PASSIVE     LED0
+        P7         4       4              PASSIVE     Header 6
+        R28_c2     1       1              PASSIVE     10K
+
+[00083] SSR-1
+        D11_c1     1       A              PASSIVE     LED0
+        P7         2       2              PASSIVE     Header 6
+        R28_c1     1       1              PASSIVE     10K
+
+[00084] SSR+1
+        P7         1       1              PASSIVE     Header 6
+        P7         3       3              PASSIVE     Header 6
+        P7         5       5              PASSIVE     Header 6
+        R28_c1     2       2              PASSIVE     10K
+        R28_c2     2       2              PASSIVE     10K
+        R28_c3     2       2              PASSIVE     10K
+
+[00085] SSR3
+        *1         65      PC8/TIM8_CH3/SDI/O         Other
+        R29_c3     1       1              PASSIVE     1K
+
+[00086] SSR2
+        *1         64      PC7/I2S3_MCK/TII/O         Other
+        R29_c2     1       1              PASSIVE     1K
+
+[00087] SSR1
+        *1         63      PC6/I2S2_MCK/TII/O         Other
+        R29_c1     1       1              PASSIVE     1K
+
+[00088] SDA
+        *1         93      PB7/I2C1_SDA/FSI/O         Other
+        IC8        5       SDA            PASSIVE     CAT24C32
+        P4         5       5              PASSIVE     Header 10X2
+        R13        2       2              PASSIVE     10K
+
+[00089] SCLK
+        *1         92      PB6/I2C1_SCL/TII/O         Other
+        IC8        6       SCL            PASSIVE     CAT24C32
+        P4         7       7              PASSIVE     Header 10X2
+        R12        2       2              PASSIVE     10K
+
+[00090] RELAYC4
+        *1         42      PE11/FSMC_D8/TII/O         Other
+        P5         17      17             PASSIVE     Header 10X2
+
+[00091] RELAYC3
+        *1         41      PE10/FSMC_D7/TII/O         Other
+        P5         19      19             PASSIVE     Header 10X2
+
+[00092] RELAYC2
+        *1         40      PE9/FSMC_D6/TIMI/O         Other
+        P5         20      20             PASSIVE     Header 10X2
+
+[00093] RELAYC1
+        *1         39      PE8/FSMC_D5/TIMI/O         Other
+        P5         18      18             PASSIVE     Header 10X2
+
+[00094] RELAYB4
+        *1         38      PE7/FSMC_D4/TIMI/O         Other
+        P5         16      16             PASSIVE     Header 10X2
+
+[00095] RELAYB3
+        *1         5       PE6/TRACED3/FSMI/O         Other
+        P5         14      14             PASSIVE     Header 10X2
+
+[00096] RELAYB2
+        *1         4       PE5/TRACED2/FSMI/O         Other
+        P5         12      12             PASSIVE     Header 10X2
+
+[00097] RELAYB1
+        *1         3       PE4/TRACED1/FSMI/O         Other
+        P5         10      10             PASSIVE     Header 10X2
+
+[00098] RELAYA4
+        *1         2       PE3/TRACED0/FSMI/O         Other
+        P5         8       8              PASSIVE     Header 10X2
+
+[00099] RELAYA3
+        *1         1       PE2/TRACECK/FSMI/O         Other
+        P5         6       6              PASSIVE     Header 10X2
+
+[00100] RELAYA2
+        *1         98      PE1/FSMC_NBL1  I/O         Other
+        P5         4       4              PASSIVE     Header 10X2
+
+[00101] RELAYA1
+        *1         97      PE0/TIM4_ETR/FSI/O         Other
+        P5         2       2              PASSIVE     Header 10X2
+
+[00102] RELAY_OUT6
+        *1         36      PB1/ADC12_IN9/TI/O         Other
+        P4         15      15             PASSIVE     Header 10X2
+
+[00103] RELAY_OUT5
+        *1         35      PB0/ADC12_IN8/TI/O         Other
+        P4         13      13             PASSIVE     Header 10X2
+
+[00104] RELAY_OUT4
+        *1         46      PE15/FSMC_D12/TI/O         Other
+        P4         20      20             PASSIVE     Header 10X2
+
+[00105] RELAY_OUT3
+        *1         45      PE14/FSMC_D11/TI/O         Other
+        P4         18      18             PASSIVE     Header 10X2
+
+[00106] RELAY_OUT2
+        *1         44      PE13/FSMC_D10/TI/O         Other
+        P4         16      16             PASSIVE     Header 10X2
+
+[00107] RELAY_OUT1
+        *1         43      PE12/FSMC_D9/TII/O         Other
+        P4         14      14             PASSIVE     Header 10X2
+
+[00108] PGND
+        C16        2       2              PASSIVE     104P
+        C19        2       2              PASSIVE     104P
+        C21        1       1              PASSIVE     104P
+        D4         2       K              PASSIVE     LED0
+        D5         1       A              PASSIVE     SK24
+        E5         2       2              PASSIVE     1000uf/25V
+        E6         2       2              PASSIVE     1000uf/25V
+        E7         1       1              PASSIVE     1000uf/25V
+        IC5        3       GND            PASSIVE     LM2596
+        IC5        5       O\N\/OFF       PASSIVE     LM2596
+        P8         2       2              PASSIVE     Header 3
+
+[00109] SGND
+
+[00110] NetD12_c2_2
+        D12_c2     2       K              PASSIVE     
+        IC12_c2    2       K              PASSIVE     MOC3083
+
+[00111] NetD12_c3_2
+        D12_c3     2       K              PASSIVE     
+        IC12_c3    2       K              PASSIVE     MOC3083
+
+[00127] Net*1_76
+        *1         76      PA14/JTCK/SWCLKI/O         Other
+        P3         2       2              PASSIVE     Header 4
+
+[00128] Net*1_72
+        *1         72      PA13/JTMS/SWDIOI/O         Other
+        P3         3       3              PASSIVE     Header 4
+
+[00131] RXD1
+        *1         69      PA10/USART1_RX/I/O         Other
+        U2         1       R0             PASSIVE     MAX3485EESA
+
+[00132] TXD1
+        *1         68      PA9/USART1_TX/TI/O         Other
+        R35        1       1              PASSIVE     10K
+        U2         4       DI             PASSIVE     MAX3485EESA
+
+[00133] RS485_DE/R\E\
+        *1         67      PA8/USART1_CK/TI/O         Other
+        Q2         3       C              PASSIVE     2N3904
+        R34        1       1              PASSIVE     10K
+        U2         2       R\E\           PASSIVE     MAX3485EESA
+        U2         3       DE             PASSIVE     MAX3485EESA
+
+[00134] Net*1_66
+        *1         66      PC9/TIM8_CH4/SDI/O         Other
+        D12_c1     2       K              PASSIVE     
+        IC12_c1    2       K              PASSIVE     MOC3083
+
+[00145] Net*1_9
+        *1         9       PC15/OSC32_OUT I/O         Other
+        C1         2       2              PASSIVE     10pF
+        R1         2       2              PASSIVE     1M
+        Y1         2       2              PASSIVE     32.768
+
+[00146] Net*1_8
+        *1         8       PC14/OSC32_IN  I/O         Other
+        C2         2       2              PASSIVE     10pF
+        R1         1       1              PASSIVE     1M
+        Y1         1       1              PASSIVE     32.768
+
+[00148] DGND_c1
+        Q1_c1      2       E              PASSIVE     2N3904
+        Q1_c2      2       E              PASSIVE     2N3904
+        Q1_c3      2       E              PASSIVE     2N3904
+
+[00149] -5VSS
+        C13        1       1              PASSIVE     0.1uF
+        C34_b1     2       2              PASSIVE     0.1uF
+        C34_b2     2       2              PASSIVE     0.1uF
+        C34_b3     2       2              PASSIVE     0.1uF
+        D2         1       A              PASSIVE     1N4001
+        E3         2                      PASSIVE     100uf/16V
+        IC3        3       VO             PASSIVE     L7905CV
+        IC10_b1    4                      PASSIVE     TL072ID
+        IC10_b2    4                      PASSIVE     TL072ID
+        IC10_b3    4                      PASSIVE     TL072ID
+        TP_VSS1    1       1              PASSIVE     
+
+[00150] +2.5VREF
+        C8         2       2              PASSIVE     104P
+        E1         1       1              PASSIVE     10uf/16V
+        IC4        1       K              PASSIVE     TL431
+        IC4        8       RV             PASSIVE     TL431
+        R5         1       1              PASSIVE     220
+        R23_b1     1       1              PASSIVE     1k(0.1%)
+        R23_b2     1       1              PASSIVE     1k(0.1%)
+        R23_b3     1       1              PASSIVE     1k(0.1%)
+        R26_b1     1       1              PASSIVE     1k(0.1%)
+        R26_b2     1       1              PASSIVE     1k(0.1%)
+        R26_b3     1       1              PASSIVE     1k(0.1%)
+        TP_VRef1   1       1              PASSIVE     
+
+[00151] LIGH_ADC3
+        *1         17      PC2/ADC123_IN12I/O         Other
+        P4         12      12             PASSIVE     Header 10X2
+
+[00152] LIGH_ADC2
+        *1         16      PC1/ADC123_IN11I/O         Other
+        P4         10      10             PASSIVE     Header 10X2
+
+[00153] LIGH_ADC1
+        *1         15      PC0/ADC123_IN10I/O         Other
+        P4         8       8              PASSIVE     Header 10X2
+
+[00154] HUM_SENSE
+        P1         1       1              PASSIVE     Header 6
+        R18        2       2              PASSIVE     1K
+
+[00155] HUM_ADC1
+        *1         29      PA4/SPI1_NSS/DAI/O         Other
+        C29        1       1              PASSIVE     0.1uF
+        R17        2       2              PASSIVE     1K
+
+[00156] GS_ADC
+        *1         30      PA5/SPI1_SCK/DAI/O         Other
+        C32        1       1              PASSIVE     0.1uF
+        R19        2       2              PASSIVE     1K
+
+[00157] EE_WP
+        *1         95      PB8/TIM4_CH3/SDI/O         Other
+        IC8        7       WP             PASSIVE     CAT24C32
+        R11        2       2              PASSIVE     10K
+
+[00158] DGND
+        *1         10      VSS_5          POWER       Other
+        *1         27      VSS_4          POWER       Other
+        *1         49      VSS_1          POWER       Other
+        *1         74      VSS_2          POWER       Other
+        *1         99      VSS_3          POWER       Other
+        1          4       4              PASSIVE     Header 4
+        C1         1       1              PASSIVE     10pF
+        C2         1       1              PASSIVE     10pF
+        C3         2       2              PASSIVE     20pF
+        C4         2       2              PASSIVE     20pF
+        C5         1       1              PASSIVE     104
+        C27        1       1              PASSIVE     104P
+        C38        1       1              PASSIVE     0.1uF
+        C40        1       1              PASSIVE     0.1uF
+        C42        2       2              PASSIVE     0.1uF/25V
+        CR1        2       -              PASSIVE     3V
+        IC8        1       A0             PASSIVE     CAT24C32
+        IC8        4       GND            PASSIVE     CAT24C32
+        IC11       3                      PASSIVE     CDSOT23-SM712
+        L2         1       1              PASSIVE     10uH
+        OP1_d1     3       E              PASSIVE     TLV-356
+        OP1_d2     3       E              PASSIVE     TLV-356
+        OP1_d3     3       E              PASSIVE     TLV-356
+        OP1_d4     3       E              PASSIVE     TLV-356
+        OP1_d5     3       E              PASSIVE     TLV-356
+        P3         1       1              PASSIVE     Header 4
+        P4         3       3              PASSIVE     Header 10X2
+        P11        6       6              PASSIVE     Header 6
+        Q2         2       E              PASSIVE     2N3904
+        R3         1       1              PASSIVE     100k
+        R32        1       1              PASSIVE     10K
+        S1         2       2              PASSIVE     RESET
+        U1         15      GND            PASSIVE     MAX3232
+        U2         5       GND            PASSIVE     MAX3485EESA
+
+[00159] CGND
+        B2         4       V-             PASSIVE     RS406
+        C22        2       2              PASSIVE     0.1uF
+        E8         2       2              PASSIVE     2200uf/50V
+        OP1_d1     2       K              PASSIVE     TLV-356
+        OP1_d2     2       K              PASSIVE     TLV-356
+        OP1_d3     2       K              PASSIVE     TLV-356
+        OP1_d4     2       K              PASSIVE     TLV-356
+        OP1_d5     2       K              PASSIVE     TLV-356
+        P4         17      17             PASSIVE     Header 10X2
+        P5         13      13             PASSIVE     Header 10X2
+
+[00160] AGND
+        *1         19      VSSA           POWER       Other
+        *1         20      VREF-          POWER       Other
+        C6         1       1              PASSIVE     105
+        C7         2       2              PASSIVE     103
+        C9         2       2              PASSIVE     2.2uF
+        C10        2       2              PASSIVE     2.2uF
+        C11        2       2              PASSIVE     0.1uF
+        C12        2       2              PASSIVE     2.2uF
+        C13        2       2              PASSIVE     0.1uF
+        C14        2       2              PASSIVE     0.1uF
+        C25        2       2              PASSIVE     1uF
+        C26        2       2              PASSIVE     4.7uF
+        C28        2       2              PASSIVE     0.1uF
+        C29        2       2              PASSIVE     0.1uF
+        C30        1       1              PASSIVE     0.1uF
+        C31        2       2              PASSIVE     0.1uF
+        C32        2       2              PASSIVE     0.1uF
+        C34_b1     1       1              PASSIVE     0.1uF
+        C34_b2     1       1              PASSIVE     0.1uF
+        C34_b3     1       1              PASSIVE     0.1uF
+        C35_b1     1       1              PASSIVE     0.1uF
+        C35_b2     1       1              PASSIVE     0.1uF
+        C35_b3     1       1              PASSIVE     0.1uF
+        C36_b1     1       1              PASSIVE     0.1uF
+        C36_b2     1       1              PASSIVE     0.1uF
+        C36_b3     1       1              PASSIVE     0.1uF
+        D1         1       A              PASSIVE     1N4001
+        D2         2       K              PASSIVE     1N4001
+        D3         1       A              PASSIVE     1N4001
+        E2         2                      PASSIVE     100uf/16V
+        E3         1                      PASSIVE     100uf/16V
+        E4         2                      PASSIVE     100uf/16V
+        IC1        2       GND            PASSIVE     L7805CV
+        IC2        2       GND            PASSIVE     L7805CV
+        IC3        1       GND            PASSIVE     L7905CV
+        IC4        2       A              PASSIVE     TL431
+        IC4        3       A              PASSIVE     TL431
+        IC4        6       A              PASSIVE     TL431
+        IC4        7       A              PASSIVE     TL431
+        IC7        2       GND            PASSIVE     LP5907MFX-3.3
+        IC10_b1    5                      PASSIVE     TL072ID
+        IC10_b2    5                      PASSIVE     TL072ID
+        IC10_b3    5                      PASSIVE     TL072ID
+        L2         2       2              PASSIVE     10uH
+        P1         5       5              PASSIVE     Header 6
+        R27_b1     2       2              PASSIVE     1k(0.1%)
+        R27_b2     2       2              PASSIVE     1k(0.1%)
+        R27_b3     2       2              PASSIVE     1k(0.1%)
+
+[00161] ADVREF
+        *1         21      VREF+          POWER       Other
+        C26        1       1              PASSIVE     4.7uF
+        IC7        5       VOUT           PASSIVE     LP5907MFX-3.3
+        TP_VA1     1       1              PASSIVE     
+
+[00162] ADC_SENSE
+        P1         2       2              PASSIVE     Header 6
+        R20        2       2              PASSIVE     1K
+
+[00163] +24V
+        1          1       1              PASSIVE     Header 4
+        B2         1       V+             PASSIVE     RS406
+        C22        1       1              PASSIVE     0.1uF
+        E8         1       1              PASSIVE     2200uf/50V
+        P1         6       6              PASSIVE     Header 6
+        P4         1       1              PASSIVE     Header 10X2
+        P5         9       9              PASSIVE     Header 10X2
+        R30_d1     1       1              PASSIVE     4.7K
+        R30_d2     1       1              PASSIVE     4.7K
+        R30_d3     1       1              PASSIVE     4.7K
+        R30_d4     1       1              PASSIVE     4.7K
+        R30_d5     1       1              PASSIVE     4.7K
+        TP_1       1       1              PASSIVE     
+
+[00164] +12V
+        B1         1       V+             PASSIVE     RS206
+        C9         1       1              PASSIVE     2.2uF
+        C12        1       1              PASSIVE     2.2uF
+        C16        1       1              PASSIVE     104P
+        E5         1       1              PASSIVE     1000uf/25V
+        IC1        1       VIN            PASSIVE     L7805CV
+        IC2        1       VIN            PASSIVE     L7805CV
+        IC5        1       VIN            PASSIVE     LM2596
+        P4         19      19             PASSIVE     Header 10X2
+
+[00165] +5VSS
+        C11        1       1              PASSIVE     0.1uF
+        C14        1       1              PASSIVE     0.1uF
+        C25        1       1              PASSIVE     1uF
+        C30        2       2              PASSIVE     0.1uF
+        C35_b1     2       2              PASSIVE     0.1uF
+        C35_b2     2       2              PASSIVE     0.1uF
+        C35_b3     2       2              PASSIVE     0.1uF
+        D1         2       K              PASSIVE     1N4001
+        D3         2       K              PASSIVE     1N4001
+        E2         1                      PASSIVE     100uf/16V
+        E4         1                      PASSIVE     100uf/16V
+        IC1        3       VO             PASSIVE     L7805CV
+        IC2        3       VO             PASSIVE     L7805CV
+        IC7        1       VIN            PASSIVE     LP5907MFX-3.3
+        IC9        8                      PASSIVE     LM2904M/TR
+        IC10_b1    8                      PASSIVE     TL072ID
+        IC10_b2    8                      PASSIVE     TL072ID
+        IC10_b3    8                      PASSIVE     TL072ID
+        R5         2       2              PASSIVE     220
+        R8         1       1              PASSIVE     4.7K
+
+[00166] +5VDD
+        C19        1       1              PASSIVE     104P
+        E6         1       1              PASSIVE     1000uf/25V
+        IC5        4       FB             PASSIVE     LM2596
+        L3         2       2              PASSIVE     INDUCTOR2
+        P4         9       9              PASSIVE     Header 10X2
+        P11        3       3              PASSIVE     Header 6
+        R6         2       2              PASSIVE     10K
+        TP_+1      1       1              PASSIVE     
+
+[00167] +3.3V
+        *1         11      VDD_5          POWER       Other
+        *1         28      VDD_4          POWER       Other
+        *1         50      VDD_1          POWER       Other
+        *1         75      VDD_2          POWER       Other
+        *1         100     VDD_3          POWER       Other
+        C37        2       2              PASSIVE     0.1uF/25V
+        C38        2       2              PASSIVE     0.1uF
+        C40        2       2              PASSIVE     0.1uF
+        L1         1       1              PASSIVE     10uH
+        P3         4       4              PASSIVE     Header 4
+        P4         11      11             PASSIVE     Header 10X2
+        P5         11      11             PASSIVE     Header 10X2
+        R4         2       2              PASSIVE     10K
+        R9         1       1              PASSIVE     10K
+        R10        1       1              PASSIVE     10K
+        R14        1       1              PASSIVE     300/0.125W
+        R15        1       1              PASSIVE     300/0.125W
+        R16        1       1              PASSIVE     300
+        R31_d1     1       1              PASSIVE     10K
+        R31_d2     1       1              PASSIVE     10K
+        R31_d3     1       1              PASSIVE     10K
+        R31_d4     1       1              PASSIVE     10K
+        R31_d5     1       1              PASSIVE     10K
+        R34        2       2              PASSIVE     10K
+        R36        2       2              PASSIVE     10K/0.125W
+        U1         16      VCC            PASSIVE     MAX3232
+        U2         8       VCC            PASSIVE     MAX3485EESA
+
+[00168] PT_B3
+        C33_b3     2       2              PASSIVE     0.1nF
+        IC10_b3    2                      PASSIVE     TL072ID
+        P2         6       6              PASSIVE     Header 6
+        R21_b3     2       2              PASSIVE     10M
+        R23_b3     2       2              PASSIVE     1k(0.1%)
+
+[00169] PT_B2
+        C33_b2     2       2              PASSIVE     0.1nF
+        IC10_b2    2                      PASSIVE     TL072ID
+        P2         3       3              PASSIVE     Header 6
+        R21_b2     2       2              PASSIVE     10M
+        R23_b2     2       2              PASSIVE     1k(0.1%)
+
+[00170] PT_B1
+        C33_b1     2       2              PASSIVE     0.1nF
+        IC10_b1    2                      PASSIVE     TL072ID
+        P2         1       1              PASSIVE     Header 6
+        R21_b1     2       2              PASSIVE     10M
+        R23_b1     2       2              PASSIVE     1k(0.1%)
+
+[00171] PT_A3
+        C33_b3     1       1              PASSIVE     0.1nF
+        IC10_b3    1                      PASSIVE     TL072ID
+        P2         5       5              PASSIVE     Header 6
+        R21_b3     1       1              PASSIVE     10M
+        R24_b3     1       1              PASSIVE     4.7k(0.1%)
+
+[00172] PT_A2
+        C33_b2     1       1              PASSIVE     0.1nF
+        IC10_b2    1                      PASSIVE     TL072ID
+        P2         4       4              PASSIVE     Header 6
+        R21_b2     1       1              PASSIVE     10M
+        R24_b2     1       1              PASSIVE     4.7k(0.1%)
+
+[00173] PT_A1
+        C33_b1     1       1              PASSIVE     0.1nF
+        IC10_b1    1                      PASSIVE     TL072ID
+        P2         2       2              PASSIVE     Header 6
+        R21_b1     1       1              PASSIVE     10M
+        R24_b1     1       1              PASSIVE     4.7k(0.1%)
+
+[00174] ADC3
+        *1         25      PA2/USART2_TX/TI/O         Other
+        R25_b3     2       2              PASSIVE     4.7K
+
+[00175] ADC2
+        *1         24      PA1/USART2_RTS/I/O         Other
+        R25_b2     2       2              PASSIVE     4.7K
+
+[00176] ADC1
+        *1         23      PA0/WKUP/USART2I/O         Other
+        R25_b1     2       2              PASSIVE     4.7K
+
+[00177] VDD3.3
+        C27        2       2              PASSIVE     104P
+        IC8        8       VCC            PASSIVE     CAT24C32
+        R11        1       1              PASSIVE     10K
+        R12        1       1              PASSIVE     10K
+        R13        1       1              PASSIVE     10K
+
+[00178] NetIC8_3
+        IC8        3       A2             PASSIVE     CAT24C32
+        R9         2       2              PASSIVE     10K
+
+[00179] NetIC8_2
+        IC8        2       A1             PASSIVE     CAT24C32
+        R10        2       2              PASSIVE     10K
+
+[00182] TXD3
+        *1         55      PD8/FSMC_D13/USI/O         Other
+        U1         11      T1IN           PASSIVE     MAX3232
+
+[00183] TXD2
+        *1         86      PD5/FSMC_NWE/USI/O         Other
+        U1         10      T2IN           PASSIVE     MAX3232
+
+[00184] RXD3
+        *1         56      PD9/FSMC_D14/USI/O         Other
+        U1         12      R1OUT          PASSIVE     MAX3232
+
+[00185] RXD2
+        *1         87      PD6/FSMC_NWAIT/I/O         Other
+        U1         9       R2OUT          PASSIVE     MAX3232
+
+[00190] NetD8_1
+        D8         1       A              PASSIVE     LED0
+        R14        2       2              PASSIVE     300/0.125W
+
+[00191] NetD9_1
+        D9         1       A              PASSIVE     LED0
+        R15        2       2              PASSIVE     300/0.125W
+
+[00192] NetD10_1
+        D10        1       A              PASSIVE     LED0
+        R16        2       2              PASSIVE     300
+
+[00193] INPUT5
+        *1         58      PD11/FSMC_A16/UI/O         Other
+        OP1_d5     4       C              PASSIVE     TLV-356
+        R31_d5     2       2              PASSIVE     10K
+
+[00194] INPUT4
+        *1         57      PD10/FSMC_D15/UI/O         Other
+        OP1_d4     4       C              PASSIVE     TLV-356
+        R31_d4     2       2              PASSIVE     10K
+
+[00195] INPUT3
+        *1         88      PD7/FSMC_NE1/FSI/O         Other
+        OP1_d3     4       C              PASSIVE     TLV-356
+        R31_d3     2       2              PASSIVE     10K
+
+[00196] INPUT2
+        *1         85      PD4/FSMC_NOE/USI/O         Other
+        OP1_d2     4       C              PASSIVE     TLV-356
+        R31_d2     2       2              PASSIVE     10K
+
+[00197] INPUT1
+        *1         84      PD3/FSMC_CLK/USI/O         Other
+        OP1_d1     4       C              PASSIVE     TLV-356
+        R31_d1     2       2              PASSIVE     10K
+
+[00198] ERROR_LED
+        *1         59      PD12/FSMC_A17/TI/O         Other
+        D10        2       K              PASSIVE     LED0
+
+[00199] CPU_RUN
+        *1         82      PD1/FSMC_D3/CANI/O         Other
+        D9         2       K              PASSIVE     LED0
+
+[00200] CONNE
+        *1         81      PD0/FSMC_D2/CANI/O         Other
+        D8         2       K              PASSIVE     LED0
+
+[00201] SI_B5
+        OP1_d5     1       A              PASSIVE     TLV-356
+        P10        1       1              PASSIVE     Header 10
+
+[00202] SI_B4
+        OP1_d4     1       A              PASSIVE     TLV-356
+        P10        3       3              PASSIVE     Header 10
+
+[00203] SI_B3
+        OP1_d3     1       A              PASSIVE     TLV-356
+        P10        5       5              PASSIVE     Header 10
+
+[00204] SI_B2
+        OP1_d2     1       A              PASSIVE     TLV-356
+        P10        7       7              PASSIVE     Header 10
+
+[00205] SI_B1
+        OP1_d1     1       A              PASSIVE     TLV-356
+        P10        9       9              PASSIVE     Header 10
+
+[00206] SI_A5
+        P10        2       2              PASSIVE     Header 10
+        R30_d5     2       2              PASSIVE     4.7K
+
+[00207] SI_A4
+        P10        4       4              PASSIVE     Header 10
+        R30_d4     2       2              PASSIVE     4.7K
+
+[00208] SI_A3
+        P10        6       6              PASSIVE     Header 10
+        R30_d3     2       2              PASSIVE     4.7K
+
+[00209] SI_A2
+        P10        8       8              PASSIVE     Header 10
+        R30_d2     2       2              PASSIVE     4.7K
+
+[00210] SI_A1
+        P10        10      10             PASSIVE     Header 10
+        R30_d1     2       2              PASSIVE     4.7K
+
+[00211] NetIC9_6
+        IC9        6                      PASSIVE     LM2904M/TR
+        IC9        7                      PASSIVE     LM2904M/TR
+        R19        1       1              PASSIVE     1K
+
+[00213] NetIC9_1
+        IC9        1                      PASSIVE     LM2904M/TR
+        IC9        2                      PASSIVE     LM2904M/TR
+        R17        1       1              PASSIVE     1K
+
+[00214] NetC31_1
+        C31        1       1              PASSIVE     0.1uF
+        IC9        5                      PASSIVE     LM2904M/TR
+        R20        1       1              PASSIVE     1K
+
+[00215] NetC28_1
+        C28        1       1              PASSIVE     0.1uF
+        IC9        3                      PASSIVE     LM2904M/TR
+        R18        1       1              PASSIVE     1K
+
+[00216] NetIC10_b3_6
+        IC10_b3    6                      PASSIVE     TL072ID
+        R22_b3     1       1              PASSIVE     13k(0.1%)
+        R24_b3     2       2              PASSIVE     4.7k(0.1%)
+
+[00217] NetIC10_b3_3
+        IC10_b3    3                      PASSIVE     TL072ID
+        R26_b3     2       2              PASSIVE     1k(0.1%)
+        R27_b3     1       1              PASSIVE     1k(0.1%)
+
+[00218] NetC36_b3_2
+        C36_b3     2       2              PASSIVE     0.1uF
+        IC10_b3    7                      PASSIVE     TL072ID
+        R22_b3     2       2              PASSIVE     13k(0.1%)
+        R25_b3     1       1              PASSIVE     4.7K
+
+[00219] NetIC10_b2_6
+        IC10_b2    6                      PASSIVE     TL072ID
+        R22_b2     1       1              PASSIVE     13k(0.1%)
+        R24_b2     2       2              PASSIVE     4.7k(0.1%)
+
+[00220] NetIC10_b2_3
+        IC10_b2    3                      PASSIVE     TL072ID
+        R26_b2     2       2              PASSIVE     1k(0.1%)
+        R27_b2     1       1              PASSIVE     1k(0.1%)
+
+[00221] NetC36_b2_2
+        C36_b2     2       2              PASSIVE     0.1uF
+        IC10_b2    7                      PASSIVE     TL072ID
+        R22_b2     2       2              PASSIVE     13k(0.1%)
+        R25_b2     1       1              PASSIVE     4.7K
+
+[00222] NetIC10_b1_6
+        IC10_b1    6                      PASSIVE     TL072ID
+        R22_b1     1       1              PASSIVE     13k(0.1%)
+        R24_b1     2       2              PASSIVE     4.7k(0.1%)
+
+[00223] NetIC10_b1_3
+        IC10_b1    3                      PASSIVE     TL072ID
+        R26_b1     2       2              PASSIVE     1k(0.1%)
+        R27_b1     1       1              PASSIVE     1k(0.1%)
+
+[00224] NetC36_b1_2
+        C36_b1     2       2              PASSIVE     0.1uF
+        IC10_b1    7                      PASSIVE     TL072ID
+        R22_b1     2       2              PASSIVE     13k(0.1%)
+        R25_b1     1       1              PASSIVE     4.7K
+

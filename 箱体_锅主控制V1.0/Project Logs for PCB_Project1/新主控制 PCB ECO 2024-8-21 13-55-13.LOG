@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=IC? NewDesignator=IC12
+Add Net: Net with name "CTRL_RelayA1" already exists
+Add Net: Net with name "CTRL_RelayA2" already exists
+Add Net: Net with name "CTRL_RelayB1" already exists
+Add Net: Net with name "CTRL_RelayB2" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

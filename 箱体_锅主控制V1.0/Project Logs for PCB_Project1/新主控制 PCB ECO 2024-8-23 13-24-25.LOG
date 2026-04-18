@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=DGND Pin=Q1_c1-2
+Added Pin To Net: NetName=DGND Pin=Q1_c2-2
+Added Pin To Net: NetName=DGND Pin=Q1_c3-2
+Added Pin To Net: NetName=+5VDD Pin=R28_c1-2
+Added Pin To Net: NetName=+5VDD Pin=R28_c2-2
+Added Pin To Net: NetName=+5VDD Pin=R28_c3-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Change Room Name: Old Name=Designator_5 New Name=Designator
+Change Room Name: Old Name=Designator_7 New Name=Designator
+Added Room: Name=Designator

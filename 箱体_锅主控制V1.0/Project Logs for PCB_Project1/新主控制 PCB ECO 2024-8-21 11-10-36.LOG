@@ -1,0 +1,124 @@
+Removed Pin From Net: NetName=AGND Pin=C12_b1-2
+Removed Pin From Net: NetName=AGND Pin=C12_b2-2
+Removed Pin From Net: NetName=AGND Pin=C12_b3-2
+Removed Pin From Net: NetName=AGND Pin=C43_b1-2
+Removed Pin From Net: NetName=AGND Pin=C43_b2-2
+Removed Pin From Net: NetName=AGND Pin=C43_b3-2
+Removed Pin From Net: NetName=AGND Pin=C45_b1-1
+Removed Pin From Net: NetName=AGND Pin=C45_b2-1
+Removed Pin From Net: NetName=AGND Pin=C45_b3-1
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b1-2
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b1-2
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b2-2
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b2-2
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b3-2
+Removed Pin From Net: NetName=AGND Pin=PSensor1_b3-2
+Removed Pin From Net: NetName=YL Pin=R48_b1-2
+Removed Pin From Net: NetName=YL Pin=R48_b2-2
+Removed Pin From Net: NetName=YL Pin=R48_b3-2
+Removed Pin From Net: NetName=YL Pin=YL1_b1-1
+Removed Pin From Net: NetName=YL Pin=YL1_b2-1
+Removed Pin From Net: NetName=YL Pin=YL1_b3-1
+Removed Member From Class: ClassName=b1 Member=C12_b1
+Removed Member From Class: ClassName=b2 Member=C12_b2
+Removed Member From Class: ClassName=b3 Member=C12_b3
+Removed Member From Class: ClassName=Designator Member=C14
+Removed Member From Class: ClassName=Designator Member=C28
+Removed Member From Class: ClassName=Designator Member=C29
+Removed Member From Class: ClassName=Designator Member=C30
+Removed Member From Class: ClassName=Designator Member=C31
+Removed Member From Class: ClassName=Designator Member=C32
+Removed Member From Class: ClassName=b1 Member=C43_b1
+Removed Member From Class: ClassName=b2 Member=C43_b2
+Removed Member From Class: ClassName=b3 Member=C43_b3
+Removed Member From Class: ClassName=b1 Member=C45_b1
+Removed Member From Class: ClassName=b2 Member=C45_b2
+Removed Member From Class: ClassName=b3 Member=C45_b3
+Removed Member From Class: ClassName=Designator Member=IC9
+Removed Member From Class: ClassName=b1 Member=PSensor1_b1
+Removed Member From Class: ClassName=b2 Member=PSensor1_b2
+Removed Member From Class: ClassName=b3 Member=PSensor1_b3
+Removed Member From Class: ClassName=Designator Member=R17
+Removed Member From Class: ClassName=Designator Member=R18
+Removed Member From Class: ClassName=Designator Member=R19
+Removed Member From Class: ClassName=Designator Member=R20
+Removed Member From Class: ClassName=Designator Member=R42
+Removed Member From Class: ClassName=Designator Member=R43
+Removed Member From Class: ClassName=Designator Member=R44
+Removed Member From Class: ClassName=Designator Member=R45
+Removed Member From Class: ClassName=Designator Member=R46
+Removed Member From Class: ClassName=Designator Member=R47
+Removed Member From Class: ClassName=b1 Member=R48_b1
+Removed Member From Class: ClassName=b2 Member=R48_b2
+Removed Member From Class: ClassName=b3 Member=R48_b3
+Removed Member From Class: ClassName=Designator Member=U3
+Removed Member From Class: ClassName=b1 Member=YL1_b1
+Removed Member From Class: ClassName=b2 Member=YL1_b2
+Removed Member From Class: ClassName=b3 Member=YL1_b3
+Added Component: Designator=C12(0603C)
+Add component (AddParameter): Name = "Value"; Value = "330pF"; VariantName = "[No Variations]"
+Added Component: Designator=C43(0805C)
+Add component (AddParameter): Name = "Value"; Value = "103P"; VariantName = "[No Variations]"
+Added Component: Designator=C45(0805C)
+Add component (AddParameter): Name = "Value"; Value = "105P"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 15p
+Added Component: Designator=PSensor1(MPX5700AP)
+Added Component: Designator=R48(0603R)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "750R"; VariantName = "[No Variations]"
+Added Component: Designator=YL1(TPP)
+Added Pin To Net: NetName=AGND Pin=C12-2
+Added Pin To Net: NetName=+5VDD Pin=C43-1
+Added Pin To Net: NetName=AGND Pin=C43-2
+Added Pin To Net: NetName=AGND Pin=C45-1
+Added Pin To Net: NetName=+5VDD Pin=C45-2
+Add Pin To Net: Unknown Pin: Pin P6-1
+Add Pin To Net: Unknown Pin: Pin P6-2
+Add Pin To Net: Unknown Pin: Pin P6-3
+Add Pin To Net: Unknown Pin: Pin P6-4
+Add Pin To Net: Unknown Pin: Pin P6-5
+Add Pin To Net: Unknown Pin: Pin P6-6
+Added Pin To Net: NetName=AGND Pin=PSensor1-2
+Added Pin To Net: NetName=AGND Pin=PSensor1-2
+Added Pin To Net: NetName=+5VDD Pin=PSensor1-3
+Added Pin To Net: NetName=+5VDD Pin=PSensor1-3
+Added Pin To Net: NetName=YL Pin=R48-2
+Added Pin To Net: NetName=YL Pin=YL1-1
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CLK" already exists
+Add Net: Net with name "CS" already exists
+Add Net: Net with name "CTRL_FMQ" already exists
+Add Net: Net with name "CTRL_FS" already exists
+Add Net: Net with name "CTRL_YSJ" already exists
+Add Net: Net with name "DI" already exists
+Add Net: Net with name "DO" already exists
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_1 Pin=PSensor1-1
+Added Pin To Net: NetName=NetC12_1 Pin=PSensor1-1
+Added Pin To Net: NetName=NetC12_1 Pin=R48-1
+Added Net: Name=NetC12_1
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Room: Name=a1
+Added Room: Name=a2
+Added Room: Name=b1
+Added Room: Name=b2
+Added Room: Name=b3
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=Designator5
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=main

@@ -1,0 +1,1172 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Net Status Report</title>
+</head>
+<body onload="document.getElementById('radio_mil').click()"><img ALT="Altium" src="
+			file://D:\AD16\2\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Net Status Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2023/8/4</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:25:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc" class="file"><acronym title="C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc">C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc</acronym></a></td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Units:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">
+<form><input type="radio" name="radio_units" id="radio_mm" onclick="changeUnits(this, 'mm')">mm<input type="radio" name="radio_units" id="radio_mil" onclick="changeUnits(this, 'mil')">mils</form>
+</td>
+</tr>
+</table><a name="IDRUBIVXVKJN1PLCK2ZQ4DCCEY5C0CNO53F3WCHFN4B5GKAERBANIN"><table>
+<tr>
+<th class="column1">Nets</th>
+<th class="column2">Layer</th>
+<th class="column3">Length</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5935.212mil|Location2.X=14986.373mil|Location1.Y=7992.569mil|Location2.Y=16605.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5935.212mil|Location2.X=14986.373mil|Location1.Y=7992.569mil|Location2.Y=16605.465mil|Absolute=True">+12V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">+15V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5545.212mil|Location2.X=12896.559mil|Location1.Y=9579.93mil|Location2.Y=11673.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5545.212mil|Location2.X=12896.559mil|Location1.Y=9579.93mil|Location2.Y=11673.074mil|Absolute=True">+2.5VREF</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7293.441mil|Location2.X=20794.992mil|Location1.Y=7972.725mil|Location2.Y=16605.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7293.441mil|Location2.X=20794.992mil|Location1.Y=7972.725mil|Location2.Y=16605.465mil|Absolute=True">+24V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5131.999mil|Location2.X=17999mil|Location1.Y=8028.5mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5131.999mil|Location2.X=17999mil|Location1.Y=8028.5mil|Location2.Y=16605.464mil|Absolute=True">+3.3V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10758mil|Location2.X=14517.307mil|Location1.Y=8289.308mil|Location2.Y=16605.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10758mil|Location2.X=14517.307mil|Location1.Y=8289.308mil|Location2.Y=16605.465mil|Absolute=True">+5VDD</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5545.212mil|Location2.X=14236.559mil|Location1.Y=9423.442mil|Location2.Y=13748.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5545.212mil|Location2.X=14236.559mil|Location1.Y=9423.442mil|Location2.Y=13748.528mil|Absolute=True">+5VSS</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7349.212mil|Location2.X=15455.438mil|Location1.Y=7992.569mil|Location2.Y=13486.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7349.212mil|Location2.X=15455.438mil|Location1.Y=7992.569mil|Location2.Y=13486.047mil|Absolute=True">-12V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6545.212mil|Location2.X=13531.559mil|Location1.Y=9481mil|Location2.Y=13143.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6545.212mil|Location2.X=13531.559mil|Location1.Y=9481mil|Location2.Y=13143.528mil|Absolute=True">-5VSS</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">AC_17V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">AC_9V</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18151mil|Location2.X=20064.559mil|Location1.Y=14390mil|Location2.Y=15318.256mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18151mil|Location2.X=20064.559mil|Location1.Y=14390mil|Location2.Y=15318.256mil|Absolute=True">AC_CBF</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14332.464mil|Location1.Y=9671.707mil|Location2.Y=13343.056mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14332.464mil|Location1.Y=9671.707mil|Location2.Y=13343.056mil|Absolute=True">ADC1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14332.464mil|Location1.Y=10156mil|Location2.Y=13323.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14332.464mil|Location1.Y=10156mil|Location2.Y=13323.37mil|Absolute=True">ADC2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14312.464mil|Location1.Y=10806mil|Location2.Y=13303.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14312.464mil|Location1.Y=10806mil|Location2.Y=13303.685mil|Absolute=True">ADC3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10071mil|Location2.X=20794.992mil|Location1.Y=9428.441mil|Location2.Y=14749.994mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10071mil|Location2.X=20794.992mil|Location1.Y=9428.441mil|Location2.Y=14749.994mil|Absolute=True">ADC_SENSE</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9630.212mil|Location2.X=13907.19mil|Location1.Y=10867.575mil|Location2.Y=13382.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9630.212mil|Location2.X=13907.19mil|Location1.Y=10867.575mil|Location2.Y=13382.425mil|Absolute=True">ADVREF</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5531mil|Location2.X=20794.992mil|Location1.Y=8318.441mil|Location2.Y=15649.994mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5531mil|Location2.X=20794.992mil|Location1.Y=8318.441mil|Location2.Y=15649.994mil|Absolute=True">AGND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7015.252mil|Location2.X=16068.055mil|Location1.Y=7972.725mil|Location2.Y=16605.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7015.252mil|Location2.X=16068.055mil|Location1.Y=7972.725mil|Location2.Y=16605.465mil|Absolute=True">CGND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6650.999mil|Location2.X=14312.702mil|Location1.Y=10411.323mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6650.999mil|Location2.X=14312.702mil|Location1.Y=10411.323mil|Location2.Y=13866.677mil|Absolute=True">CONNE</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6260.999mil|Location2.X=14293.016mil|Location1.Y=10411.323mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6260.999mil|Location2.X=14293.016mil|Location1.Y=10411.323mil|Location2.Y=13866.677mil|Absolute=True">CPU_RUN</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4913.999mil|Location2.X=14501.678mil|Location1.Y=7758.441mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4913.999mil|Location2.X=14501.678mil|Location1.Y=7758.441mil|Location2.Y=16605.464mil|Absolute=True">DGND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15122mil|Location2.X=15176mil|Location1.Y=13193mil|Location2.Y=13660mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15122mil|Location2.X=15176mil|Location1.Y=13193mil|Location2.Y=13660mil|Absolute=True">DGND_c1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14037.11mil|Location1.Y=8013.441mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14037.11mil|Location1.Y=8013.441mil|Location2.Y=13866.677mil|Absolute=True">EE_WP</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">EGND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5820.999mil|Location2.X=14501.678mil|Location1.Y=10411.323mil|Location2.Y=13461.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5820.999mil|Location2.X=14501.678mil|Location1.Y=10411.323mil|Location2.Y=13461.165mil|Absolute=True">ERROR_LED</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=10862mil|Location1.Y=9675mil|Location2.Y=12526.8mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=10862mil|Location1.Y=9675mil|Location2.Y=12526.8mil|Absolute=True">EXT_RXD2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=8788.527mil|Location1.Y=9875mil|Location2.Y=10250mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=8788.527mil|Location1.Y=9875mil|Location2.Y=10250mil|Absolute=True">EXT_RXD3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=10862mil|Location1.Y=9725mil|Location2.Y=12827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=10862mil|Location1.Y=9725mil|Location2.Y=12827mil|Absolute=True">EXT_TXD2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=8788.527mil|Location1.Y=9925mil|Location2.Y=10150mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=8788.527mil|Location1.Y=9925mil|Location2.Y=10150mil|Absolute=True">EXT_TXD3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9636mil|Location2.X=14017.426mil|Location1.Y=9428.441mil|Location2.Y=13272.189mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9636mil|Location2.X=14017.426mil|Location1.Y=9428.441mil|Location2.Y=13272.189mil|Absolute=True">GS_ADC</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10756mil|Location2.X=13997.74mil|Location1.Y=9428.441mil|Location2.Y=13272.189mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10756mil|Location2.X=13997.74mil|Location1.Y=9428.441mil|Location2.Y=13272.189mil|Absolute=True">HUM_ADC1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11211mil|Location2.X=20794.992mil|Location1.Y=9428.441mil|Location2.Y=14450.191mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11211mil|Location2.X=20794.992mil|Location1.Y=9428.441mil|Location2.Y=14450.191mil|Absolute=True">HUM_SENSE</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14253.646mil|Location1.Y=13787.811mil|Location2.Y=14559.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14253.646mil|Location1.Y=13787.811mil|Location2.Y=14559.591mil|Absolute=True">INPUT1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14233.962mil|Location1.Y=13787.811mil|Location2.Y=14934.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14233.962mil|Location1.Y=13787.811mil|Location2.Y=14934.591mil|Absolute=True">INPUT2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14174.906mil|Location1.Y=13787.811mil|Location2.Y=15309.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14174.906mil|Location1.Y=13787.811mil|Location2.Y=15309.591mil|Absolute=True">INPUT3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14501.678mil|Location1.Y=13401.985mil|Location2.Y=15684.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14501.678mil|Location1.Y=13401.985mil|Location2.Y=15684.591mil|Absolute=True">INPUT4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14501.678mil|Location1.Y=13421.668mil|Location2.Y=16059.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6623.441mil|Location2.X=14501.678mil|Location1.Y=13421.668mil|Location2.Y=16059.591mil|Absolute=True">INPUT5</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17101mil|Location2.X=19410mil|Location1.Y=14400mil|Location2.Y=15434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17101mil|Location2.X=19410mil|Location1.Y=14400mil|Location2.Y=15434mil|Absolute=True">IN_L</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18781.473mil|Location2.X=19835mil|Location1.Y=14400mil|Location2.Y=15133.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=18781.473mil|Location2.X=19835mil|Location1.Y=14400mil|Location2.Y=15133.528mil|Absolute=True">IN_N</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13514.535mil|Location2.X=13907.19mil|Location1.Y=13480.725mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13514.535mil|Location2.X=13907.19mil|Location1.Y=13480.725mil|Location2.Y=16705.464mil|Absolute=True">LIGH_ADC1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13414.536mil|Location2.X=13907.19mil|Location1.Y=13461.039mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13414.536mil|Location2.X=13907.19mil|Location1.Y=13461.039mil|Location2.Y=16705.464mil|Absolute=True">LIGH_ADC2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13314.535mil|Location2.X=13907.19mil|Location1.Y=13441.354mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13314.535mil|Location2.X=13907.19mil|Location1.Y=13441.354mil|Location2.Y=16705.464mil|Absolute=True">LIGH_ADC3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7763.442mil|Location2.X=13907.19mil|Location1.Y=7690.567mil|Location2.Y=13559.592mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7763.442mil|Location2.X=13907.19mil|Location1.Y=7690.567mil|Location2.Y=13559.592mil|Absolute=True">Net*1_12</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7506mil|Location2.X=13907.19mil|Location1.Y=7843.441mil|Location2.Y=13539.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7506mil|Location2.X=13907.19mil|Location1.Y=7843.441mil|Location2.Y=13539.906mil|Absolute=True">Net*1_13</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6860.214mil|Location2.X=13907.19mil|Location1.Y=8773.441mil|Location2.Y=13520.221mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6860.214mil|Location2.X=13907.19mil|Location1.Y=8773.441mil|Location2.Y=13520.221mil|Absolute=True">Net*1_14</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6309.504mil|Location2.X=13907.19mil|Location1.Y=9196.905mil|Location2.Y=13677.701mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6309.504mil|Location2.X=13907.19mil|Location1.Y=9196.905mil|Location2.Y=13677.701mil|Absolute=True">Net*1_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=18449mil|Location1.Y=13579.15mil|Location2.Y=15322.709mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=18449mil|Location1.Y=13579.15mil|Location2.Y=15322.709mil|Absolute=True">Net*1_66</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10576.472mil|Location2.X=14501.678mil|Location1.Y=8466.472mil|Location2.Y=13717.072mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10576.472mil|Location2.X=14501.678mil|Location1.Y=8466.472mil|Location2.Y=13717.072mil|Absolute=True">Net*1_72</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10576.472mil|Location2.X=14411.126mil|Location1.Y=8566.472mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10576.472mil|Location2.X=14411.126mil|Location1.Y=8566.472mil|Location2.Y=13866.677mil|Absolute=True">Net*1_76</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8960.999mil|Location2.X=13907.19mil|Location1.Y=8351.49mil|Location2.Y=13638.332mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8960.999mil|Location2.X=13907.19mil|Location1.Y=8351.49mil|Location2.Y=13638.332mil|Absolute=True">Net*1_8</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9125.999mil|Location2.X=13907.19mil|Location1.Y=8351.49mil|Location2.Y=13618.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9125.999mil|Location2.X=13907.19mil|Location1.Y=8351.49mil|Location2.Y=13618.646mil|Absolute=True">Net*1_9</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7336mil|Location2.X=14056.796mil|Location1.Y=7848.441mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7336mil|Location2.X=14056.796mil|Location1.Y=7848.441mil|Location2.Y=13866.677mil|Absolute=True">Net*1_94</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB1_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB1_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB2_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB3_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB3_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB3_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetB3_4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetC17_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8867.881mil|Location2.X=11269mil|Location1.Y=9513.442mil|Location2.Y=12615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8867.881mil|Location2.X=11269mil|Location1.Y=9513.442mil|Location2.Y=12615mil|Absolute=True">NetC28_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8639.535mil|Location2.X=10129mil|Location1.Y=9513.442mil|Location2.Y=12665mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8639.535mil|Location2.X=10129mil|Location1.Y=9513.442mil|Location2.Y=12665mil|Absolute=True">NetC31_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14332.464mil|Location1.Y=9576mil|Location2.Y=9823.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14332.464mil|Location1.Y=9576mil|Location2.Y=9823.293mil|Absolute=True">NetC36_b1_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14242.464mil|Location1.Y=10066mil|Location2.Y=10391mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14242.464mil|Location1.Y=10066mil|Location2.Y=10391mil|Absolute=True">NetC36_b2_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14222.464mil|Location1.Y=10711mil|Location2.Y=10991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13501mil|Location2.X=14222.464mil|Location1.Y=10711mil|Location2.Y=10991mil|Absolute=True">NetC36_b3_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=8139.999mil|Location1.Y=9975mil|Location2.Y=10057.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7711.999mil|Location2.X=8139.999mil|Location1.Y=9975mil|Location2.Y=10057.559mil|Absolute=True">NetC37_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7485.999mil|Location2.X=7799.999mil|Location1.Y=9925mil|Location2.Y=10066mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7485.999mil|Location2.X=7799.999mil|Location1.Y=9925mil|Location2.Y=10066mil|Absolute=True">NetC39_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7485.999mil|Location2.X=7799.999mil|Location1.Y=9904.441mil|Location2.Y=10081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7485.999mil|Location2.X=7799.999mil|Location1.Y=9904.441mil|Location2.Y=10081mil|Absolute=True">NetC39_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7045.999mil|Location2.X=7799.999mil|Location1.Y=9875mil|Location2.Y=10066mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7045.999mil|Location2.X=7799.999mil|Location1.Y=9875mil|Location2.Y=10066mil|Absolute=True">NetC41_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7045.999mil|Location2.X=7799.999mil|Location1.Y=9825mil|Location2.Y=9976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7045.999mil|Location2.X=7799.999mil|Location1.Y=9825mil|Location2.Y=9976mil|Absolute=True">NetC41_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5765.999mil|Location2.X=7799.999mil|Location1.Y=9775mil|Location2.Y=10066mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5765.999mil|Location2.X=7799.999mil|Location1.Y=9775mil|Location2.Y=10066mil|Absolute=True">NetC42_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19186.787mil|Location2.X=20064.559mil|Location1.Y=14747.425mil|Location2.Y=15653.756mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19186.787mil|Location2.X=20064.559mil|Location1.Y=14747.425mil|Location2.Y=15653.756mil|Absolute=True">NetC43_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9439.212mil|Location2.X=9933.212mil|Location1.Y=11455.074mil|Location2.Y=11586.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9439.212mil|Location2.X=9933.212mil|Location1.Y=11455.074mil|Location2.Y=11586.575mil|Absolute=True">NetC8_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5589.999mil|Location2.X=5878.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5589.999mil|Location2.X=5878.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True">NetD10_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13639.092mil|Location2.Y=13697.092mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13639.092mil|Location2.Y=13697.092mil|Absolute=True">NetD11_c1_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13431.664mil|Location2.Y=13490.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13431.664mil|Location2.Y=13490.5mil|Absolute=True">NetD11_c2_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13224.237mil|Location2.Y=13284mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15206mil|Location2.X=15437mil|Location1.Y=13224.237mil|Location2.Y=13284mil|Absolute=True">NetD11_c3_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17941mil|Location2.X=19015mil|Location1.Y=14390mil|Location2.Y=15021.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17941mil|Location2.X=19015mil|Location1.Y=14390mil|Location2.Y=15021.56mil|Absolute=True">NetD12_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetD4_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13112.575mil|Location2.X=13830.866mil|Location1.Y=8458.599mil|Location2.Y=9229.055mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13112.575mil|Location2.X=13830.866mil|Location1.Y=8458.599mil|Location2.Y=9229.055mil|Absolute=True">NetD5_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">NetD6_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6419.999mil|Location2.X=6708.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6419.999mil|Location2.X=6708.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True">NetD8_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.999mil|Location2.X=6318.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.999mil|Location2.X=6318.999mil|Location1.Y=10418.441mil|Location2.Y=10582.323mil|Absolute=True">NetD9_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13435mil|Location1.Y=9461mil|Location2.Y=9736mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13435mil|Location1.Y=9461mil|Location2.Y=9736mil|Absolute=True">NetIC10_b1_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14242.464mil|Location1.Y=9576mil|Location2.Y=9974mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14242.464mil|Location1.Y=9576mil|Location2.Y=9974mil|Absolute=True">NetIC10_b1_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13369mil|Location1.Y=10055.642mil|Location2.Y=10341mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13369mil|Location1.Y=10055.642mil|Location2.Y=10341mil|Absolute=True">NetIC10_b2_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14332.464mil|Location1.Y=10066mil|Location2.Y=10559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14332.464mil|Location1.Y=10066mil|Location2.Y=10559mil|Absolute=True">NetIC10_b2_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13369mil|Location1.Y=10650.284mil|Location2.Y=10941mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12923.441mil|Location2.X=13369mil|Location1.Y=10650.284mil|Location2.Y=10941mil|Absolute=True">NetIC10_b3_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14312.464mil|Location1.Y=10711mil|Location2.Y=11174mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13474.346mil|Location2.X=14312.464mil|Location1.Y=10711mil|Location2.Y=11174mil|Absolute=True">NetIC10_b3_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17457.189mil|Location2.X=18335mil|Location1.Y=14480.001mil|Location2.Y=15322.709mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17457.189mil|Location2.X=18335mil|Location1.Y=14480.001mil|Location2.Y=15322.709mil|Absolute=True">NetIC12_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17257.19mil|Location2.X=19184.559mil|Location1.Y=14385.244mil|Location2.Y=15434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17257.19mil|Location2.X=19184.559mil|Location1.Y=14385.244mil|Location2.Y=15434mil|Absolute=True">NetIC12_4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17101mil|Location2.X=18089.654mil|Location1.Y=14385.244mil|Location2.Y=15034mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=17101mil|Location2.X=18089.654mil|Location1.Y=14385.244mil|Location2.Y=15034mil|Absolute=True">NetIC12_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9849.212mil|Location2.X=10063.212mil|Location1.Y=10790.015mil|Location2.Y=10896.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9849.212mil|Location2.X=10063.212mil|Location1.Y=10790.015mil|Location2.Y=10896.772mil|Absolute=True">NetIC7_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8861mil|Location2.X=9918.999mil|Location1.Y=8013.441mil|Location2.Y=12945mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8861mil|Location2.X=9918.999mil|Location1.Y=8013.441mil|Location2.Y=12945mil|Absolute=True">NetIC8_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8861mil|Location2.X=9748.999mil|Location1.Y=8013.441mil|Location2.Y=12995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8861mil|Location2.X=9748.999mil|Location1.Y=8013.441mil|Location2.Y=12995mil|Absolute=True">NetIC8_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8867.881mil|Location2.X=11489mil|Location1.Y=9518.441mil|Location2.Y=12565mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8867.881mil|Location2.X=11489mil|Location1.Y=9518.441mil|Location2.Y=12565mil|Absolute=True">NetIC9_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8639.535mil|Location2.X=10359mil|Location1.Y=9518.441mil|Location2.Y=12615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8639.535mil|Location2.X=10359mil|Location1.Y=9518.441mil|Location2.Y=12615mil|Absolute=True">NetIC9_6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13366mil|Location2.Y=13735mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13366mil|Location2.Y=13735mil|Absolute=True">NetQ1_c1_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13471mil|Location2.Y=13529mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13471mil|Location2.Y=13529mil|Absolute=True">NetQ1_c2_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13268mil|Location2.Y=13634mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14963.441mil|Location2.X=15176mil|Location1.Y=13268mil|Location2.Y=13634mil|Absolute=True">NetQ1_c3_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5346.243mil|Location2.X=5599.999mil|Location1.Y=9909.44mil|Location2.Y=10000.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5346.243mil|Location2.X=5599.999mil|Location1.Y=9909.44mil|Location2.Y=10000.56mil|Absolute=True">NetQ2_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13396.788mil|Location2.X=15455.438mil|Location1.Y=7678.945mil|Location2.Y=9310.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13396.788mil|Location2.X=15455.438mil|Location1.Y=7678.945mil|Location2.Y=9310.102mil|Absolute=True">PGND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=9495.01mil|Location2.Y=9994.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=9495.01mil|Location2.Y=9994.713mil|Absolute=True">PT_A1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=10095.01mil|Location2.Y=10589.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=10095.01mil|Location2.Y=10589.358mil|Absolute=True">PT_A2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=10395.01mil|Location2.Y=11184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13447.464mil|Location1.Y=10395.01mil|Location2.Y=11184mil|Absolute=True">PT_A3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13435mil|Location1.Y=9194.813mil|Location2.Y=9994.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13435mil|Location1.Y=9194.813mil|Location2.Y=9994.713mil|Absolute=True">PT_B1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13369mil|Location1.Y=9795.01mil|Location2.Y=10589.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13369mil|Location1.Y=9795.01mil|Location2.Y=10589.358mil|Absolute=True">PT_B2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13369mil|Location1.Y=10695.01mil|Location2.Y=11184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12035.008mil|Location2.X=13369mil|Location1.Y=10695.01mil|Location2.Y=11184mil|Absolute=True">PT_B3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13977.929mil|Location2.X=15340.465mil|Location1.Y=13787.811mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13977.929mil|Location2.X=15340.465mil|Location1.Y=13787.811mil|Location2.Y=16705.464mil|Absolute=True">RELAYA1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13958.245mil|Location2.X=15240.464mil|Location1.Y=13787.811mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13958.245mil|Location2.X=15240.464mil|Location1.Y=13787.811mil|Location2.Y=16705.464mil|Absolute=True">RELAYA2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=15140.465mil|Location1.Y=13756.315mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=15140.465mil|Location1.Y=13756.315mil|Location2.Y=16705.464mil|Absolute=True">RELAYA3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=15040.465mil|Location1.Y=13736.63mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=15040.465mil|Location1.Y=13736.63mil|Location2.Y=16705.464mil|Absolute=True">RELAYA4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14940.465mil|Location1.Y=13716.944mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14940.465mil|Location1.Y=13716.944mil|Location2.Y=16705.464mil|Absolute=True">RELAYB1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14840.465mil|Location1.Y=13697.261mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14840.465mil|Location1.Y=13697.261mil|Location2.Y=16705.464mil|Absolute=True">RELAYB2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14740.464mil|Location1.Y=13677.575mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13828.324mil|Location2.X=14740.464mil|Location1.Y=13677.575mil|Location2.Y=16705.464mil|Absolute=True">RELAYB3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14155.095mil|Location2.X=14640.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14155.095mil|Location2.X=14640.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAYB4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14174.781mil|Location2.X=14540.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14174.781mil|Location2.X=14540.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAYC1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14194.465mil|Location2.X=14440.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14194.465mil|Location2.X=14440.465mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAYC2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14214.151mil|Location2.X=14440.465mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14214.151mil|Location2.X=14440.465mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True">RELAYC3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14233.835mil|Location2.X=14540.465mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14233.835mil|Location2.X=14540.465mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True">RELAYC4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13214.535mil|Location2.X=14273.332mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13214.535mil|Location2.X=14273.332mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAY_OUT1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13114.535mil|Location2.X=14293.016mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13114.535mil|Location2.X=14293.016mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAY_OUT2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13014.535mil|Location2.X=14312.702mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13014.535mil|Location2.X=14312.702mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAY_OUT3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12914.535mil|Location2.X=14332.386mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12914.535mil|Location2.X=14332.386mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">RELAY_OUT4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13214.535mil|Location2.X=14115.85mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13214.535mil|Location2.X=14115.85mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True">RELAY_OUT5</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13114.535mil|Location2.X=14135.536mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13114.535mil|Location2.X=14135.536mil|Location1.Y=13193.323mil|Location2.Y=16605.464mil|Absolute=True">RELAY_OUT6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4876.999mil|Location2.X=10862mil|Location1.Y=9909.44mil|Location2.Y=13727.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4876.999mil|Location2.X=10862mil|Location1.Y=9909.44mil|Location2.Y=13727.59mil|Absolute=True">RS485_A</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4952.999mil|Location2.X=10862mil|Location1.Y=9909.44mil|Location2.Y=13427.39mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4952.999mil|Location2.X=10862mil|Location1.Y=9909.44mil|Location2.Y=13427.39mil|Absolute=True">RS485_B</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5392.243mil|Location2.X=14501.678mil|Location1.Y=9929mil|Location2.Y=13618.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5392.243mil|Location2.X=14501.678mil|Location1.Y=9929mil|Location2.Y=13618.646mil|Absolute=True">RS485_DE/R\E\</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6450.999mil|Location2.X=14501.678mil|Location1.Y=10029mil|Location2.Y=13658.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6450.999mil|Location2.X=14501.678mil|Location1.Y=10029mil|Location2.Y=13658.015mil|Absolute=True">RXD1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14194.592mil|Location1.Y=9675mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14194.592mil|Location1.Y=9675mil|Location2.Y=13866.677mil|Absolute=True">RXD2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14501.678mil|Location1.Y=9825mil|Location2.Y=13402.11mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14501.678mil|Location1.Y=9825mil|Location2.Y=13402.11mil|Absolute=True">RXD3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14096.166mil|Location1.Y=8013.441mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14096.166mil|Location1.Y=8013.441mil|Location2.Y=16605.464mil|Absolute=True">SCLK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14076.48mil|Location1.Y=8013.441mil|Location2.Y=16605.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=14076.48mil|Location1.Y=8013.441mil|Location2.Y=16605.464mil|Absolute=True">SDA</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7383.441mil|Location2.X=10214.992mil|Location1.Y=14465.007mil|Location2.Y=14594.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7383.441mil|Location2.X=10214.992mil|Location1.Y=14465.007mil|Location2.Y=14594.991mil|Absolute=True">SI_A1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=14866mil|Location2.Y=15194.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=14866mil|Location2.Y=15194.991mil|Absolute=True">SI_A2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15241mil|Location2.Y=15794.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15241mil|Location2.Y=15794.991mil|Absolute=True">SI_A3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15616mil|Location2.Y=16394.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15616mil|Location2.Y=16394.991mil|Absolute=True">SI_A4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15991mil|Location2.Y=16994.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7423.441mil|Location2.X=10214.992mil|Location1.Y=15991mil|Location2.Y=16994.991mil|Absolute=True">SI_A5</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6915.252mil|Location2.X=10214.992mil|Location1.Y=14256.315mil|Location2.Y=14894.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6915.252mil|Location2.X=10214.992mil|Location1.Y=14256.315mil|Location2.Y=14894.991mil|Absolute=True">SI_B1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=14631.315mil|Location2.Y=15494.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=14631.315mil|Location2.Y=15494.991mil|Absolute=True">SI_B2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15006.315mil|Location2.Y=16094.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15006.315mil|Location2.Y=16094.991mil|Absolute=True">SI_B3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15381.315mil|Location2.Y=16694.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15381.315mil|Location2.Y=16694.991mil|Absolute=True">SI_B4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15756.315mil|Location2.Y=17295.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6935.252mil|Location2.X=10214.992mil|Location1.Y=15756.315mil|Location2.Y=17295.188mil|Absolute=True">SI_B5</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15378.764mil|Location2.X=16132mil|Location1.Y=12972.7mil|Location2.Y=14277.49mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15378.764mil|Location2.X=16132mil|Location1.Y=12972.7mil|Location2.Y=14277.49mil|Absolute=True">SSR+1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=13532.763mil|Location2.Y=13977.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=13532.763mil|Location2.Y=13977.29mil|Absolute=True">SSR-1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=13272.9mil|Location2.Y=13489.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=13272.9mil|Location2.Y=13489.664mil|Absolute=True">SSR-2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=12672.51mil|Location2.Y=13282.237mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=15468.764mil|Location2.X=16132mil|Location1.Y=12672.51mil|Location2.Y=13282.237mil|Absolute=True">SSR-3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13366mil|Location2.Y=13539.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13366mil|Location2.Y=13539.906mil|Absolute=True">SSR1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13471mil|Location2.Y=13559.592mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13471mil|Location2.Y=13559.592mil|Absolute=True">SSR2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13559.465mil|Location2.Y=13634mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14422.812mil|Location2.X=14936.559mil|Location1.Y=13559.465mil|Location2.Y=13634mil|Absolute=True">SSR3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5541.999mil|Location2.X=14501.678mil|Location1.Y=9879mil|Location2.Y=13638.332mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5541.999mil|Location2.X=14501.678mil|Location1.Y=9879mil|Location2.Y=13638.332mil|Absolute=True">TXD1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14214.276mil|Location1.Y=9725mil|Location2.Y=13866.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14214.276mil|Location1.Y=9725mil|Location2.Y=13866.677mil|Absolute=True">TXD2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14501.678mil|Location1.Y=9775mil|Location2.Y=13382.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7931.999mil|Location2.X=14501.678mil|Location1.Y=9775mil|Location2.Y=13382.425mil|Absolute=True">TXD3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13814.535mil|Location2.X=13907.19mil|Location1.Y=13421.668mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13814.535mil|Location2.X=13907.19mil|Location1.Y=13421.668mil|Location2.Y=16705.464mil|Absolute=True">UV_ADC1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13714.535mil|Location2.X=14076.48mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13714.535mil|Location2.X=14076.48mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">UV_ADC2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13614.535mil|Location2.X=14096.166mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13614.535mil|Location2.X=14096.166mil|Location1.Y=13193.323mil|Location2.Y=16705.464mil|Absolute=True">UV_ADC3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=9528.999mil|Location1.Y=8008.442mil|Location2.Y=12895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8641mil|Location2.X=9528.999mil|Location1.Y=8008.442mil|Location2.Y=12895mil|Absolute=True">VDD3.3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\%E7%AE%B1%E4%BD%93%E6%8E%A7%E5%88%B6%E5%99%A8%E5%88%86%E5%9D%97%E5%8E%9F%E7%90%86%E5%9B%BE\%E4%B8%BB%E6%8E%A7%E5%88%B6\%E4%B8%BB%E6%8E%A7%E5%88%B6.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5531mil|Location2.X=13907.19mil|Location1.Y=8028.5mil|Location2.Y=13362.739mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\DELL5630\Desktop\箱体控制器分块原理图\主控制\主控制.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5531mil|Location2.X=13907.19mil|Location1.Y=8028.5mil|Location2.Y=13362.739mil|Absolute=True">VDDA</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mils
+			</a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

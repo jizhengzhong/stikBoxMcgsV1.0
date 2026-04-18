@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=AGND Pin=IC6-2
+Removed Pin From Net: NetName=+24V Pin=IC6-3
+Removed Pin From Net: NetName=+24VDD Pin=P6-2
+Removed Member From Class: ClassName=Designator1 Member=IC6
+Added Component: Designator=E6(EC5.08-10.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1000uf/25V"; VariantName = "[No Variations]"
+Added Component: Designator=E9(EC5.08-10.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1000uf/25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+24V Pin=B3-1
+Added Pin To Net: NetName=+24V Pin=E6-1
+Added Pin To Net: NetName=AGND Pin=E6-2
+Added Pin To Net: NetName=+24V Pin=E9-1
+Added Pin To Net: NetName=AGND Pin=E9-2
+Added Pin To Net: NetName=+24VDD Pin=P6-2
+Added Member To Class: ClassName=Designator1 Member=Component E6 470uf/50V
+Added Member To Class: ClassName=Designator1 Member=Component E9 470uf/50V
+Change Room Name: Old Name=Designator_3 New Name=Designator
+Added Room: Name=Designator

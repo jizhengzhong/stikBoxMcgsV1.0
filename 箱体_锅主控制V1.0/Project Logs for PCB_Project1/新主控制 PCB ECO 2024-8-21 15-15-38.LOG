@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=RelayA1 Pin=OP2_a1-2
+Added Pin To Net: NetName=RelayA2 Pin=OP2_a2-2
+Added Pin To Net: NetName=RelayB1 Pin=OP3_a1-2
+Added Pin To Net: NetName=RelayB2 Pin=OP3_a2-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Class: Name=In_put 

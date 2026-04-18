@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=PT_B2 Pin= -4
+Removed Pin From Net: NetName=PT_A2 Pin= -5
+Removed Pin From Net: NetName=PT_B3 Pin= -6
+Removed Pin From Net: NetName=PT_A3 Pin= -7
+Change Component Designator: OldDesignator=  NewDesignator=P1
+Added Pin To Net: NetName=PT_A2 Pin=P1-4
+Added Pin To Net: NetName=PT_B2 Pin=P1-5
+Added Pin To Net: NetName=PT_A3 Pin=P1-6
+Added Pin To Net: NetName=PT_B3 Pin=P1-7
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Class: Name=In_put 
+Added Member To Class: ClassName=Designator Member=Component IC9 LM2904M/TR
+Added Member To Class: ClassName=main Member=Component P1 Header 10

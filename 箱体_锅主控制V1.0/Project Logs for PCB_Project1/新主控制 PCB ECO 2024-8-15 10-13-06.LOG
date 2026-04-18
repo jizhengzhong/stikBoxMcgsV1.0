@@ -1,0 +1,91 @@
+Added Component: Designator=*1()
+Add Pin To Net: Unknown Pin: Pin *1-1
+Add Pin To Net: Unknown Pin: Pin *1-2
+Add Pin To Net: Unknown Pin: Pin *1-3
+Add Pin To Net: Unknown Pin: Pin *1-4
+Add Pin To Net: Unknown Pin: Pin *1-5
+Add Pin To Net: Unknown Pin: Pin *1-6
+Add Pin To Net: Unknown Pin: Pin *1-8
+Add Pin To Net: Unknown Pin: Pin *1-9
+Add Pin To Net: Unknown Pin: Pin *1-10
+Add Pin To Net: Unknown Pin: Pin *1-11
+Add Pin To Net: Unknown Pin: Pin *1-12
+Add Pin To Net: Unknown Pin: Pin *1-13
+Add Pin To Net: Unknown Pin: Pin *1-14
+Add Pin To Net: Unknown Pin: Pin *1-15
+Add Pin To Net: Unknown Pin: Pin *1-16
+Add Pin To Net: Unknown Pin: Pin *1-17
+Add Pin To Net: Unknown Pin: Pin *1-18
+Add Pin To Net: Unknown Pin: Pin *1-19
+Add Pin To Net: Unknown Pin: Pin *1-20
+Add Pin To Net: Unknown Pin: Pin *1-21
+Add Pin To Net: Unknown Pin: Pin *1-22
+Add Pin To Net: Unknown Pin: Pin *1-23
+Add Pin To Net: Unknown Pin: Pin *1-24
+Add Pin To Net: Unknown Pin: Pin *1-25
+Add Pin To Net: Unknown Pin: Pin *1-27
+Add Pin To Net: Unknown Pin: Pin *1-28
+Add Pin To Net: Unknown Pin: Pin *1-29
+Add Pin To Net: Unknown Pin: Pin *1-30
+Add Pin To Net: Unknown Pin: Pin *1-33
+Add Pin To Net: Unknown Pin: Pin *1-34
+Add Pin To Net: Unknown Pin: Pin *1-35
+Add Pin To Net: Unknown Pin: Pin *1-36
+Add Pin To Net: Unknown Pin: Pin *1-38
+Add Pin To Net: Unknown Pin: Pin *1-39
+Add Pin To Net: Unknown Pin: Pin *1-40
+Add Pin To Net: Unknown Pin: Pin *1-41
+Add Pin To Net: Unknown Pin: Pin *1-42
+Add Pin To Net: Unknown Pin: Pin *1-43
+Add Pin To Net: Unknown Pin: Pin *1-44
+Add Pin To Net: Unknown Pin: Pin *1-45
+Add Pin To Net: Unknown Pin: Pin *1-46
+Add Pin To Net: Unknown Pin: Pin *1-49
+Add Pin To Net: Unknown Pin: Pin *1-50
+Add Pin To Net: Unknown Pin: Pin *1-51
+Add Pin To Net: Unknown Pin: Pin *1-52
+Add Pin To Net: Unknown Pin: Pin *1-53
+Add Pin To Net: Unknown Pin: Pin *1-54
+Add Pin To Net: Unknown Pin: Pin *1-55
+Add Pin To Net: Unknown Pin: Pin *1-56
+Add Pin To Net: Unknown Pin: Pin *1-57
+Add Pin To Net: Unknown Pin: Pin *1-58
+Add Pin To Net: Unknown Pin: Pin *1-59
+Add Pin To Net: Unknown Pin: Pin *1-63
+Add Pin To Net: Unknown Pin: Pin *1-64
+Add Pin To Net: Unknown Pin: Pin *1-65
+Add Pin To Net: Unknown Pin: Pin *1-67
+Add Pin To Net: Unknown Pin: Pin *1-68
+Add Pin To Net: Unknown Pin: Pin *1-69
+Add Pin To Net: Unknown Pin: Pin *1-72
+Add Pin To Net: Unknown Pin: Pin *1-74
+Add Pin To Net: Unknown Pin: Pin *1-75
+Add Pin To Net: Unknown Pin: Pin *1-76
+Add Pin To Net: Unknown Pin: Pin *1-81
+Add Pin To Net: Unknown Pin: Pin *1-82
+Add Pin To Net: Unknown Pin: Pin *1-84
+Add Pin To Net: Unknown Pin: Pin *1-85
+Add Pin To Net: Unknown Pin: Pin *1-86
+Add Pin To Net: Unknown Pin: Pin *1-87
+Add Pin To Net: Unknown Pin: Pin *1-88
+Add Pin To Net: Unknown Pin: Pin *1-92
+Add Pin To Net: Unknown Pin: Pin *1-93
+Add Pin To Net: Unknown Pin: Pin *1-94
+Add Pin To Net: Unknown Pin: Pin *1-95
+Add Pin To Net: Unknown Pin: Pin *1-97
+Add Pin To Net: Unknown Pin: Pin *1-98
+Add Pin To Net: Unknown Pin: Pin *1-99
+Add Pin To Net: Unknown Pin: Pin *1-100
+Change Net Name : Old Net Name=ADC_CKF New Net Name=AC_CKF
+Change Net Name : Old Net Name=ADC_CSF New Net Name=AC_CSF
+Change Net Name : Old Net Name=ADC_F1 New Net Name=AC_F1
+Change Net Name : Old Net Name=ADC_F2 New Net Name=AC_F2
+Change Net Name : Old Net Name=ADC_F3 New Net Name=AC_F3
+Change Net Name : Old Net Name=ADC_FS New Net Name=AC_FS
+Change Net Name : Old Net Name=ADC_JSF New Net Name=AC_JSF
+Change Net Name : Old Net Name=ADC_PSF New Net Name=AC_PSF
+Add Net: Net with name "IN_L" already exists
+Add Net: Net with name "IN_N" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class Member: Failed to add class member : Component *1 Other

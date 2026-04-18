@@ -1,0 +1,17 @@
+Change Component Comment : Designator=C29 Old Comment=0.1uF New Comment=1uF
+Change Component Comment : Designator=C32 Old Comment=0.1uF New Comment=1uF
+Added Component: Designator=E10(CAP-TH_BD5.0-P2.00-D0.8-FD)
+Add component (AddParameter): Name = "Value"; Value = "1000uf/25V"; VariantName = "[No Variations]"
+Added Component: Designator=E11(CAP-TH_BD5.0-P2.00-D0.8-FD)
+Add component (AddParameter): Name = "Value"; Value = "1000uf/25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Hum_ADC1 Pin=E10-1
+Added Pin To Net: NetName=GS_ADC Pin=E11-1
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator Member=Component E10 1uf/25V
+Added Member To Class: ClassName=Designator Member=Component E11 1uf/25V
+Change Room Name: Old Name=Designator_1 New Name=Designator
+Change Room Name: Old Name=Designator_3 New Name=Designator
+Added Room: Name=Designator

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=SSR-1 Pin=D11_c1-1
+Removed Pin From Net: NetName=NetD11_c1_2 Pin=D11_c1-2
+Removed Pin From Net: NetName=SSR-2 Pin=D11_c2-1
+Removed Pin From Net: NetName=NetD11_c2_2 Pin=D11_c2-2
+Removed Pin From Net: NetName=SSR-3 Pin=D11_c3-1
+Removed Pin From Net: NetName=NetD11_c1_2 Pin=Q1_c1-3
+Removed Pin From Net: NetName=NetD11_c2_2 Pin=Q1_c2-3
+Removed Pin From Net: NetName=SSR-1 Pin=R28_c1-1
+Removed Pin From Net: NetName=SSR-2 Pin=R28_c2-1
+Removed Pin From Net: NetName=SSR-3 Pin=R28_c3-1
+Added Pin To Net: NetName=NetD11_c2_2 Pin=D11_c1-1
+Added Pin To Net: NetName=SSR-1 Pin=D11_c1-2
+Added Pin To Net: NetName=NetD11_c1_2 Pin=D11_c2-1
+Added Pin To Net: NetName=SSR-2 Pin=D11_c2-2
+Added Pin To Net: NetName=NetC8_1 Pin=D11_c3-1
+Added Pin To Net: NetName=SSR-3 Pin=D11_c3-2
+Added Pin To Net: NetName=SSR-1 Pin=Q1_c1-3
+Added Pin To Net: NetName=SSR-2 Pin=Q1_c2-3
+Added Pin To Net: NetName=SSR-3 Pin=Q1_c3-3
+Added Pin To Net: NetName=NetD11_c2_2 Pin=R28_c1-1
+Added Pin To Net: NetName=NetD11_c1_2 Pin=R28_c2-1
+Added Pin To Net: NetName=NetC8_1 Pin=R28_c3-1
+Change Net Name : Old Net Name=NetC8_1 New Net Name=NetD11_c3_1
+Change Net Name : Old Net Name=NetD11_c1_2 New Net Name=NetD11_c2_1
+Change Net Name : Old Net Name=NetD11_c2_2 New Net Name=NetD11_c1_1
+Added Class: Name=In_put 

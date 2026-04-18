@@ -1,0 +1,85 @@
+Change Component Comment : Designator=D12 Old Comment= New Comment=LED0
+Change Component Comment : Designator=C37 Old Comment=0.1uF/25V New Comment=0.1uF
+Change Component Comment : Designator=C39 Old Comment=0.1uF/25V New Comment=0.1uF
+Change Component Comment : Designator=C41 Old Comment=0.1uF/25V New Comment=0.1uF
+Change Component Comment : Designator=C42 Old Comment=0.1uF/25V New Comment=0.1uF
+Change Component Comment : Designator=R23_b1 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R23_b2 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R23_b3 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R26_b1 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R26_b2 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R26_b3 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R27_b1 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R27_b2 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=R27_b3 Old Comment=1k(0.1%) New Comment=1k
+Change Component Comment : Designator=Q1_c1 Old Comment=2N3904 New Comment=2N3904S-RTK/PS
+Change Component Comment : Designator=Q1_c2 Old Comment=2N3904 New Comment=2N3904S-RTK/PS
+Change Component Comment : Designator=Q1_c3 Old Comment=2N3904 New Comment=2N3904S-RTK/PS
+Change Component Comment : Designator=Q2 Old Comment=2N3904 New Comment=2N3904S-RTK/PS
+Change Component Comment : Designator=CR1 Old Comment=3V New Comment=BS-02-A1AJ010
+Change Component Comment : Designator=R24_b1 Old Comment=4.7k(0.1%) New Comment=4.7k
+Change Component Comment : Designator=R24_b2 Old Comment=4.7k(0.1%) New Comment=4.7k
+Change Component Comment : Designator=R24_b3 Old Comment=4.7k(0.1%) New Comment=4.7k
+Change Component Comment : Designator=R36 Old Comment=10K/0.125W New Comment=10K
+Change Component Comment : Designator=E3 Old Comment=100uf/16V New Comment=100uf/10v
+Change Component Comment : Designator=C5 Old Comment=104 New Comment=0.1uF
+Change Component Comment : Designator=C8 Old Comment=104P New Comment=0.1uF
+Change Component Comment : Designator=C16 Old Comment=104P New Comment=0.1uF
+Change Component Comment : Designator=C19 Old Comment=104P New Comment=0.1uF
+Change Component Comment : Designator=C21 Old Comment=104P New Comment=0.1uF
+Change Component Comment : Designator=C27 Old Comment=104P New Comment=0.1uF
+Change Component Comment : Designator=R16 Old Comment=300 New Comment=300/0.125W
+Change Component Comment : Designator=C17 Old Comment=472P 100V 5mm New Comment=4.7nf/100v
+Change Component Comment : Designator=C18 Old Comment=472P New Comment=4.7nf/100v
+Change Component Comment : Designator=P2 Old Comment=Header 2 New Comment=散热片
+Change Component Comment : Designator=IC6 Old Comment=L7815CV-DG New Comment=L7815ABD2T-TR
+Change Component Comment : Designator=IC5 Old Comment=LM2596 New Comment=LM2596S-5.0
+Change Component Comment : Designator=S1 Old Comment=RESET New Comment=TS-1101-C-W
+Change Component Comment : Designator=B1 Old Comment=RS206 New Comment=KBP206
+Change Component Comment : Designator=B3 Old Comment=RS206 New Comment=KBP206
+Change Component Comment : Designator=B2 Old Comment=RS406 New Comment=KBL406
+Change Component Comment : Designator=IC10_b1 Old Comment=TL072ID New Comment=TL072IDR
+Change Component Comment : Designator=IC10_b2 Old Comment=TL072ID New Comment=TL072IDR
+Change Component Comment : Designator=IC10_b3 Old Comment=TL072ID New Comment=TL072IDR
+Change Component Comment : Designator=OP1_d1 Old Comment=TLV-356 New Comment=TLP781(GR-TP6,F)
+Change Component Comment : Designator=OP1_d2 Old Comment=TLV-356 New Comment=TLP781(GR-TP6,F)
+Change Component Comment : Designator=OP1_d3 Old Comment=TLV-356 New Comment=TLP781(GR-TP6,F)
+Change Component Comment : Designator=OP1_d4 Old Comment=TLV-356 New Comment=TLP781(GR-TP6,F)
+Change Component Comment : Designator=OP1_d5 Old Comment=TLV-356 New Comment=TLP781(GR-TP6,F)
+Change Component Description : Designator=CR1 Old Description=Battery New Description=品牌： MYOUNG(美阳)  型号： BS-02-A1AJ010  连接器类型：电池底座 适用电池规格：CR2032 工作温度范围：-25℃~+85℃ 插脚 卧式底座 环保吸塑托盘包装
+Change Component Description : Designator=C26 Old Description=Capacitor New Description=品牌： SAMSUNG(三星)  型号： CL21A475KBQNNNE  容值：4.7uF 精度：±10% 额定电压：50V 材质(温度系数)：X5R 材质：X5R
+Change Component Description : Designator=C25 Old Description=Capacitor New Description=品牌： SAMSUNG(三星)  型号： CL21B105KBFNNNE  容值：1uF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=IC7 Old Description=Connector New Description=品牌： TECH PUBLIC(台舟)  型号： TPLP5907MFX-3.3
+Change Component Description : Designator=B2 Old Description=Diode Bridge New Description=品牌： MDD  型号： KBL406  直流反向耐压(Vr)：600V 平均整流电流(Io)：4A 正向压降(Vf)：1V@4A 正向浪涌电流(Ifsm)：125A
+Change Component Description : Designator=B1 Old Description=Diode Bridge New Description=品牌： MDD  型号： KBP206  直流反向耐压(Vr)：600V 平均整流电流(Io)：2A 正向压降(Vf)：1.1V@2A 正向浪涌电流(Ifsm)：60A
+Change Component Description : Designator=B3 Old Description=Diode Bridge New Description=品牌： MDD  型号： KBP206  直流反向耐压(Vr)：600V 平均整流电流(Io)：2A 正向压降(Vf)：1.1V@2A 正向浪涌电流(Ifsm)：60A
+Change Component Description : Designator=P2 Old Description=Header, 2-Pin New Description=品牌： XSD(鑫顺达)  型号： 30*30*25 2P   描述： P=23mm 长：30mm
+Change Component Description : Designator=P9 Old Description=Header, 4-Pin New Description=品牌： KEFA(科发)  KF7.62-4p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=1 Old Description=Header, 4-Pin New Description=品牌： Megastar(兆星)    型号： ZX-XH2.54-4PZZ    参考系列：XH 间距：2.54mm 插针结构：1x4P 排数：1 每排PIN数：4 公母：公型插针 安装方式：直插 额定电流：3A 触头材质：黄铜 触头镀层：锡 工作温度范围：-25℃~+85℃ 焊接温度(最大值)：260℃ 配套胶壳型号： ZX-XH2.54-4PJK 配套端子型号： ZX-XH2.54-DZ
+Change Component Description : Designator=P11 Old Description=Header, 6-Pin New Description=品牌： KEFA(科发)  KF7.62-6p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=P10 Old Description=Header, 10-Pin New Description=品牌： KEFA(科发)  KF7.62-10p隔板类型：两面 间距：7.62mm 结构：1x2P 每排PIN数：2 排数：1 安装方式：直针 引脚位置：边脚 额定电流：24A 额定电压：450V 线规 - AWG：12~22 线规 - mm2：2.5 工作温度范围：-40℃~+105℃ 颜色：黑色 黑色
+Change Component Description : Designator=Q1_c1 Old Description=NPN General Purpose Amplifier New Description=品牌： KEC  型号： 2N3904S-RTK/PS  晶体管类型：NPN 集射极击穿电压(Vceo)：40V 集电极电流(Ic)：200mA 功率(Pd)：350mW 直流电流增益(hFE@Ic,Vce)：100@10mA,1V NPN,Vceo=40V,Ic=200mA
+Change Component Description : Designator=Q1_c2 Old Description=NPN General Purpose Amplifier New Description=品牌： KEC  型号： 2N3904S-RTK/PS  晶体管类型：NPN 集射极击穿电压(Vceo)：40V 集电极电流(Ic)：200mA 功率(Pd)：350mW 直流电流增益(hFE@Ic,Vce)：100@10mA,1V NPN,Vceo=40V,Ic=200mA
+Change Component Description : Designator=Q1_c3 Old Description=NPN General Purpose Amplifier New Description=品牌： KEC  型号： 2N3904S-RTK/PS  晶体管类型：NPN 集射极击穿电压(Vceo)：40V 集电极电流(Ic)：200mA 功率(Pd)：350mW 直流电流增益(hFE@Ic,Vce)：100@10mA,1V NPN,Vceo=40V,Ic=200mA
+Change Component Description : Designator=Q2 Old Description=NPN General Purpose Amplifier New Description=品牌： KEC  型号： 2N3904S-RTK/PS  晶体管类型：NPN 集射极击穿电压(Vceo)：40V 集电极电流(Ic)：200mA 功率(Pd)：350mW 直流电流增益(hFE@Ic,Vce)：100@10mA,1V NPN,Vceo=40V,Ic=200mA
+Change Component Description : Designator=OP1_d1 Old Description=Optoisolator New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d2 Old Description=Optoisolator New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d3 Old Description=Optoisolator New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d4 Old Description=Optoisolator New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=OP1_d5 Old Description=Optoisolator New Description=品牌： TOSHIBA(东芝)    型号： TLP781(GR-TP6,F)  输入电压类型：DC 输出通道数：1 正向电压：1.15V 反向电压：5V 输出电流：50mA 接收端电压：80V 集射极饱和电压(Vce(sat)@Ic,IF)：400mV@2.4mA,8mA 隔离电压(rms)：5kV OPTOISOLATR 5KV TRANSISTOR 工作温度:-55°C~110°C
+Change Component Description : Designator=E3 Old Description=Tantalum capacitor New Description=品牌： Kyocera AVX 型号： TAJB107M010RNJ  容值：100uF 精度：±20% 额定电压：10V 等效串联电阻：1.4Ω@100kHz
+Change Component Description : Designator=C8 Old Description=品牌： SAMSUNG(三星)    型号： CL10B104KB8NNNC  容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R New Description=
+Change Component Description : Designator=C13 Old Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R New Description=品牌： SAMSUNG(三星)    型号： CL10B104KB8NNNC  容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=C33_b1 Old Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R New Description=品牌： SAMSUNG(三星)   型号： CL21C101JBANNNC   容值：100pF 精度：±5% 额定电压：50V 材质(温度系数)：C0G 材质:C0G
+Change Component Description : Designator=C33_b2 Old Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R New Description=品牌： SAMSUNG(三星)   型号： CL21C101JBANNNC   容值：100pF 精度：±5% 额定电压：50V 材质(温度系数)：C0G 材质:C0G
+Change Component Description : Designator=C33_b3 Old Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R New Description=品牌： SAMSUNG(三星)   型号： CL21C101JBANNNC   容值：100pF 精度：±5% 额定电压：50V 材质(温度系数)：C0G 材质:C0G
+Change Component Description : Designator=C5 Old Description=品牌： SAMSUNG(三星)  型号： CL21F104ZAANNNC  容值：100nF 精度：-20%~+80% 额定电压：25V 材质(温度系数)：Y5V New Description=品牌： SAMSUNG(三星)    型号： CL10B104KB8NNNC  容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=C37 Old Description=品牌： SAMSUNG(三星)  型号： CL21F104ZAANNNC  容值：100nF 精度：-20%~+80% 额定电压：25V 材质(温度系数)：Y5V New Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=C39 Old Description=品牌： SAMSUNG(三星)  型号： CL21F104ZAANNNC  容值：100nF 精度：-20%~+80% 额定电压：25V 材质(温度系数)：Y5V New Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=C41 Old Description=品牌： SAMSUNG(三星)  型号： CL21F104ZAANNNC  容值：100nF 精度：-20%~+80% 额定电压：25V 材质(温度系数)：Y5V New Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=C42 Old Description=品牌： SAMSUNG(三星)  型号： CL21F104ZAANNNC  容值：100nF 精度：-20%~+80% 额定电压：25V 材质(温度系数)：Y5V New Description=品牌： SAMSUNG(三星) 型号： CL21B104KBCNNNC ：容值：100nF 精度：±10% 额定电压：50V 材质(温度系数)：X7R 材质:X7R
+Change Component Description : Designator=L3 Old Description=贴片功率电感 New Description=品牌： YJYCOIN(益嘉源)  型号： YPRH1209-470M    电感值：47uH 精度：±20% 额定电流：3.6A
+Added Pin To Net: NetName=AGND Pin=C8-1
+Added Pin To Net: NetName=AGND Pin=E1-2
+Added Class: Name=In_put 
+Added Member To Class: ClassName=main Member=Component C43 101/250V

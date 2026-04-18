@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetK1_a1_3 Pin=K1_a1-3
+Removed Pin From Net: NetName=NetK1_a2_3 Pin=K1_a2-3
+Removed Pin From Net: NetName=CONB12 Pin=K2_a2-3
+Removed Pin From Net: NetName=CONA Pin=P2-3
+Removed Pin From Net: NetName=NetK1_a1_3 Pin=R87_a1-1
+Removed Pin From Net: NetName=NetK1_a2_3 Pin=R87_a2-1
+Removed Pin From Net: NetName=CONB12 Pin=R92_a2-1
+Added Pin To Net: NetName=CONB12 Pin=*1-53
+Added Pin To Net: NetName=NetK1_a1_3 Pin=*1-54
+Added Pin To Net: NetName=CONA Pin=IC16-1
+Added Pin To Net: NetName=NetK1_a2_3 Pin=IC16-6
+Added Pin To Net: NetName=CONA1 Pin=K1_a1-3
+Added Pin To Net: NetName=CONB2 Pin=K2_a2-3
+Added Pin To Net: NetName=CONA1 Pin=R87_a1-1
+Added Pin To Net: NetName=CONB2 Pin=R92_a2-1
+Change Net Name : Old Net Name=CONA New Net Name=CTRL_FMQ
+Change Net Name : Old Net Name=CONB11 New Net Name=CONB1
+Change Net Name : Old Net Name=CONB12 New Net Name=DI
+Change Net Name : Old Net Name=NetK1_a1_3 New Net Name=DO
+Change Net Name : Old Net Name=NetK1_a2_3 New Net Name=CTRL_FS
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CLK" already exists
+Added Pin To Net: NetName=CONA2 Pin=K1_a2-3
+Added Pin To Net: NetName=CONA2 Pin=P2-3
+Added Pin To Net: NetName=CONA2 Pin=R87_a2-1
+Added Net: Name=CONA2
+Add Net: Net with name "CS" already exists
+Add Net: Net with name "CTRL_YSJ" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

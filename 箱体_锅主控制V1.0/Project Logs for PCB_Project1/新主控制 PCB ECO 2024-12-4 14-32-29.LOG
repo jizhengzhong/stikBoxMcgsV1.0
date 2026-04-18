@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CTRL_YSJ Pin=IC12-1
+Removed Pin From Net: NetName=CTRL_FS Pin=IC12-3
+Removed Pin From Net: NetName=FS Pin=IC12-14
+Removed Pin From Net: NetName=YSJ Pin=IC12-16
+Added Pin To Net: NetName=CTRL_FS Pin=IC12-1
+Added Pin To Net: NetName=CTRL_YSJ Pin=IC12-3
+Added Pin To Net: NetName=YSJ Pin=IC12-14
+Added Pin To Net: NetName=FS Pin=IC12-16

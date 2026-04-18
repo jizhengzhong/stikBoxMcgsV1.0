@@ -1,0 +1,47 @@
+Removed Member From Class: ClassName=Designator Member=C12
+Removed Member From Class: ClassName=Designator Member=C14
+Removed Member From Class: ClassName=Designator Member=C28
+Removed Member From Class: ClassName=Designator Member=C29
+Removed Member From Class: ClassName=Designator Member=C30
+Removed Member From Class: ClassName=Designator Member=C31
+Removed Member From Class: ClassName=Designator Member=C32
+Removed Member From Class: ClassName=Designator Member=C43
+Removed Member From Class: ClassName=Designator Member=C45
+Removed Member From Class: ClassName=Designator Member=IC9
+Removed Member From Class: ClassName=Designator Member=PSensor1
+Removed Member From Class: ClassName=Designator Member=R17
+Removed Member From Class: ClassName=Designator Member=R18
+Removed Member From Class: ClassName=Designator Member=R19
+Removed Member From Class: ClassName=Designator Member=R20
+Removed Member From Class: ClassName=Designator Member=R42
+Removed Member From Class: ClassName=Designator Member=R43
+Removed Member From Class: ClassName=Designator Member=R44
+Removed Member From Class: ClassName=Designator Member=R45
+Removed Member From Class: ClassName=Designator Member=R46
+Removed Member From Class: ClassName=Designator Member=R47
+Removed Member From Class: ClassName=Designator Member=R48
+Removed Member From Class: ClassName=Designator Member=U3
+Removed Member From Class: ClassName=Designator Member=YL1
+Added Component: Designator=P2(CONN-TH_6P-P7.62_WJ25C-B-7.62-6P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=COMA Pin=P2-1
+Added Pin To Net: NetName=CONA1 Pin=P2-2
+Added Pin To Net: NetName=CONA Pin=P2-3
+Added Pin To Net: NetName=COMB Pin=P2-4
+Added Pin To Net: NetName=CONB11 Pin=P2-5
+Added Pin To Net: NetName=CONB2 Pin=P2-6
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CGND" already exists
+Add Net: Net with name "CLK" already exists
+Add Net: Net with name "CS" already exists
+Add Net: Net with name "CTRL_FMQ" already exists
+Add Net: Net with name "CTRL_FS" already exists
+Add Net: Net with name "CTRL_YSJ" already exists
+Add Net: Net with name "DI" already exists
+Add Net: Net with name "DO" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

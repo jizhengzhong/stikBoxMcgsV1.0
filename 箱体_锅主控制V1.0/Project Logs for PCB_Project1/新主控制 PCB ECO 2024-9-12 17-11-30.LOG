@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=+24V Pin=B2-1
+Removed Pin From Net: NetName=+24V Pin=C22-1
+Removed Pin From Net: NetName=+24V Pin=E8-1
+Removed Pin From Net: NetName=AGND Pin=P8-2
+Removed Pin From Net: NetName=+24V Pin=TP_1-1
+Removed Pin From Net: NetName=+24V Pin=TP_2-1
+Change Component Comment : Designator=D15 Old Comment= New Comment=M7
+Added Pin To Net: NetName=+24VDD Pin=B2-1
+Added Pin To Net: NetName=+24VDD Pin=C22-1
+Added Pin To Net: NetName=+24VDD Pin=E8-1
+Added Pin To Net: NetName=+24VDD Pin=TP_1-1
+Added Net: Name=+24VDD
+Added Pin To Net: NetName=PGND Pin=P8-2
+Added Net: Name=PGND
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Class: Name=In_put 

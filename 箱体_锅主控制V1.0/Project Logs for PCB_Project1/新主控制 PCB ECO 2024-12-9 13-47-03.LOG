@@ -1,0 +1,29 @@
+Change Component Comment : Designator=IC9 Old Comment=LM2904M/TR New Comment=TL072IDR
+Added Component: Designator=R50(0805R)
+Added Component: Designator=R51_d1(0805R)
+Added Component: Designator=R51_d2(0805R)
+Added Component: Designator=R51_d3(0805R)
+Added Component: Designator=R51_d4(0805R)
+Added Component: Designator=R51_d5(0805R)
+Added Pin To Net: NetName=AGND Pin=R50-1
+Added Pin To Net: NetName=Hum_ADC1 Pin=R50-2
+Added Pin To Net: NetName=SI_B1 Pin=R51_d1-1
+Added Pin To Net: NetName=CGND Pin=R51_d1-2
+Added Pin To Net: NetName=SI_B2 Pin=R51_d2-1
+Added Pin To Net: NetName=CGND Pin=R51_d2-2
+Added Pin To Net: NetName=SI_B3 Pin=R51_d3-1
+Added Pin To Net: NetName=CGND Pin=R51_d3-2
+Added Pin To Net: NetName=SI_B4 Pin=R51_d4-1
+Added Pin To Net: NetName=CGND Pin=R51_d4-2
+Added Pin To Net: NetName=SI_B5 Pin=R51_d5-1
+Added Pin To Net: NetName=CGND Pin=R51_d5-2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator Member=Component R50 1.5K
+Added Member To Class: ClassName=d1 Member=Component R51_d1 (R51) 150R
+Added Member To Class: ClassName=d2 Member=Component R51_d2 (R51) 150R
+Added Member To Class: ClassName=d3 Member=Component R51_d3 (R51) 150R
+Added Member To Class: ClassName=d4 Member=Component R51_d4 (R51) 150R
+Added Member To Class: ClassName=d5 Member=Component R51_d5 (R51) 150R

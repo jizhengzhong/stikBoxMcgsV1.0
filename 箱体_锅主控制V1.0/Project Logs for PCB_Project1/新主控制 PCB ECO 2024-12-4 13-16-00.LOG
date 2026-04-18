@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=CTRL_FMQ Pin=IC16-1
+Removed Pin From Net: NetName=CTRL_DRLOCK Pin=IC16-4
+Removed Pin From Net: NetName=CTRL_YSJ Pin=IC16-5
+Removed Pin From Net: NetName=CTRL_FS Pin=IC16-6
+Removed Pin From Net: NetName=DGND Pin=IC16-8
+Removed Pin From Net: NetName=FS Pin=IC16-11
+Removed Pin From Net: NetName=YSJ Pin=IC16-12
+Removed Pin From Net: NetName=OUT_DRLOCK Pin=IC16-13
+Add Component: Footprint Not Found TO-220-AB
+Added Component: Designator=R1(0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R49(0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=FM1-2
+Added Pin To Net: NetName=CTRL_DRLOCK Pin=IC12-5
+Added Pin To Net: NetName=CTRL_YSJ Pin=IC12-6
+Added Pin To Net: NetName=CTRL_FS Pin=IC12-7
+Added Pin To Net: NetName=FS Pin=IC12-10
+Added Pin To Net: NetName=YSJ Pin=IC12-11
+Added Pin To Net: NetName=OUT_DRLOCK Pin=IC12-12
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Added Pin To Net: NetName=CTRL_FMQ Pin=R8-2
+Added Pin To Net: NetName=AGND Pin=R49-2
+Added Pin To Net: NetName=NetFM1_1 Pin=FM1-1
+Added Pin To Net: NetName=NetFM1_1 Pin=R1-2
+Added Net: Name=NetFM1_1
+Added Pin To Net: NetName=NetQ3_1 Pin=R8-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R49-1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_2 Pin=R1-1
+Added Net: Name=NetQ3_2
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Change Room Name: Old Name=Designator_2 New Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

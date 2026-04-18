@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=CTRL_RelayB2 Pin=*1-2
+Added Pin To Net: NetName=CTRL_DRLOCK Pin=*1-40
+Added Pin To Net: NetName=CTRL_RelayA2 Pin=*1-98
+Added Pin To Net: NetName=CTRL_RelayA1 Pin=IC12-1
+Added Pin To Net: NetName=CTRL_RelayB1 Pin=IC12-3
+Added Pin To Net: NetName=CTRL_FMQ Pin=IC16-1
+Added Pin To Net: NetName=CTRL_YSJ Pin=IC16-5
+Added Pin To Net: NetName=CTRL_FS Pin=IC16-6
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
