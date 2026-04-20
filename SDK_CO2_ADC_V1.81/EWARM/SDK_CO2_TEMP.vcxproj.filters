@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="APP">
+      <UniqueIdentifier>{06D2870B-72DB-877C-FB56-9E7C675F937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{D9DE78AF-4594-F1A4-CE88-EB7B3A3DE8A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\EWARM">
+      <UniqueIdentifier>{44C2F81C-B0D8-F6B2-F94F-82D465A5C73A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User">
+      <UniqueIdentifier>{072166F1-F319-8543-1C4C-6AC808A4644F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS-OS">
+      <UniqueIdentifier>{53BD253F-3F8A-804A-68A3-6EF254CFB5D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS-OS\CFG">
+      <UniqueIdentifier>{F21AB5AB-DE7D-4450-8703-7D06734510D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS-OS\HAL">
+      <UniqueIdentifier>{972FB5AB-8392-4450-2C18-7D06185A10D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS-OS\SRC">
+      <UniqueIdentifier>{8A60B5AB-76C3-4450-1F49-7D060B8B10D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{64DA870B-D0E3-877C-595F-9E7CC567937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\GPRS">
+      <UniqueIdentifier>{AFC63EC9-9B93-99D4-C4AC-877CB0D8CE62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\PRINT">
+      <UniqueIdentifier>{406BBBF1-ACD5-6F68-F513-210E61BD4DBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DWIN">
+      <UniqueIdentifier>{17D5837C-030C-850D-ACF8-6A10980E010F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers">
+      <UniqueIdentifier>{C456D287-3036-5123-394E-DCF9A5ACB784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\CMSIS">
+      <UniqueIdentifier>{12DDDB0F-7E9D-5746-47D8-A0C3B3579C22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{B53EBC8A-A1F9-AB36-4AB1-2481364BF6C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MOSBUS">
+      <UniqueIdentifier>{7E7440C1-6A16-6B97-53D1-7EEB3F12F2E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MUSIC">
+      <UniqueIdentifier>{E665A00D-527A-C8BE-1BFC-6B1E87CFC4EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middlewares">
+      <UniqueIdentifier>{564FC0E8-C204-39DE-4BF9-32B5B7AD2FE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middlewares\FatFs">
+      <UniqueIdentifier>{59485C00-C55E-5A96-0ED6-E5B77A2B2B1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="README">
+      <UniqueIdentifier>{33732BCC-1F15-56A2-08D0-69F6F410DDF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\APP\appcfg.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APP\osObjects.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APP\pincfg.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMSISOS\Config\RTX_Config.h">
+      <Filter>CMSIS-OS\CFG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wavtask\audioplay.h">
+      <Filter>MUSIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wavtask\wavplay.h">
+      <Filter>MUSIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wavtask\wm8978.h">
+      <Filter>MUSIC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\APP\alspi.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\appmanage.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\control.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\delay.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\iichal.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\ledctr.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\malloc.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\myiic.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\osObjCreat.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\partab.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\sd_lpc.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\stmflash.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\strctr.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\sys.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\sysfun.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APP\systask.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Config\RTX_Config.c">
+      <Filter>CMSIS-OS\CFG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Config\cmsis_os1.c">
+      <Filter>CMSIS-OS\CFG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Config\os_systick.c">
+      <Filter>CMSIS-OS\CFG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\IAR\irq_cm4f.s">
+      <Filter>CMSIS-OS\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_delay.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_evflags.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_evr.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_kernel.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_lib.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_memory.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_mempool.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_msgqueue.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_mutex.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_semaphore.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_system.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_thread.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMSISOS\Source\rtx_timer.c">
+      <Filter>CMSIS-OS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c">
+      <Filter>Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\ff.c">
+      <Filter>Middlewares\FatFs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c">
+      <Filter>Middlewares</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\main.c">
+      <Filter>Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\stm32f4xx_hal_msp.c">
+      <Filter>Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\stm32f4xx_it.c">
+      <Filter>Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\system_stm32f4xx.c">
+      <Filter>Drivers\CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dwin\dwinapp.c">
+      <Filter>DWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dwin\text.c">
+      <Filter>DWIN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gprs\gprsapi.c">
+      <Filter>COM\GPRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gprs\gprsapp.c">
+      <Filter>COM\GPRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gprs\gprscom.c">
+      <Filter>COM\GPRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbapp.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbdatacb.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbossync.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbportx.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbporty.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modbus\mbportz.c">
+      <Filter>MOSBUS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\print\printapp.c">
+      <Filter>COM\PRINT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\print\printcom.c">
+      <Filter>COM\PRINT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wavtask\audioplay.c">
+      <Filter>MUSIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wavtask\i2s.c">
+      <Filter>MUSIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wavtask\wavplay.c">
+      <Filter>MUSIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wavtask\wm8978.c">
+      <Filter>MUSIC</Filter>
+    </ClCompile>
+    <ClCompile Include="startup_stm32f427xx.s">
+      <Filter>Application\EWARM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\APP\FlashEep_M4.a">
+      <Filter>APP</Filter>
+    </None>
+    <None Include="..\APP\dataproc-m4f.a">
+      <Filter>APP</Filter>
+    </None>
+    <None Include="..\APP\ms_pid_lib_m4.a">
+      <Filter>APP</Filter>
+    </None>
+    <None Include="..\APP\read_me.txt">
+      <Filter>README</Filter>
+    </None>
+    <None Include="..\APP\sdk_co2_m4f.a">
+      <Filter>APP</Filter>
+    </None>
+  </ItemGroup>
+</Project>

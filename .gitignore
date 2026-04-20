@@ -17,3 +17,32 @@ Listings/
 # 系统垃圾文件
 .DS_Store
 Thumbs.db
+
+# IAR 编译输出目录
+Debug/
+Release/
+Obj/
+List/
+settings/
+Output/
+
+# IAR 临时文件
+*.ewt
+*.bak
+*.wdproj
+*.dep
+*.build
+*.hex
+*.bin
+*.map
+*.o
+*.a
+*.elf
+*.hex
+*.ihex
+*.srec
+*.log
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

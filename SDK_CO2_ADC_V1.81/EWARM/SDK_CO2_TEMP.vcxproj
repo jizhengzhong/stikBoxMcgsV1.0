@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="SDK_CO2_TEMP|Win32">
+      <Configuration>SDK_CO2_TEMP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F616C1F-8BC4-FBC3-344A-347A208CC746}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDK_CO2_TEMP</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDK_CO2_TEMP|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='SDK_CO2_TEMP|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SDK_CO2_TEMP|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\SDK_CO2_TEMP\</OutDir>
+    <IntDir>obj\</IntDir>
+    <TargetName>SDK_CO2_TEMP</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <IncludePath>$(VC_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SDK_CO2_TEMP|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>USE_HAL_DRIVER;STM32F427xx;USE_FULL_LL_DRIVER;_IAR_;__ICCARM__;_Pragma(x)=;__interrupt=;__packed=;__weak=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Inc;..\Drivers\STM32F4xx_HAL_Driver\Inc;..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;..\Middlewares\Third_Party\FatFs\src;..\Drivers\CMSIS\Include;..\CMSISOS\Config;..\CMSISOS\Include;..\CMSISOS\Source;..\APP;..\modbus;..\print;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\APP\appcfg.h" />
+    <ClInclude Include="..\APP\osObjects.h" />
+    <ClInclude Include="..\APP\pincfg.h" />
+    <ClInclude Include="..\CMSISOS\Config\RTX_Config.h" />
+    <ClInclude Include="..\wavtask\audioplay.h" />
+    <ClInclude Include="..\wavtask\wavplay.h" />
+    <ClInclude Include="..\wavtask\wm8978.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\APP\alspi.c" />
+    <ClCompile Include="..\APP\appmanage.c" />
+    <ClCompile Include="..\APP\control.cpp" />
+    <ClCompile Include="..\APP\delay.c" />
+    <ClCompile Include="..\APP\iichal.c" />
+    <ClCompile Include="..\APP\ledctr.c" />
+    <ClCompile Include="..\APP\malloc.c" />
+    <ClCompile Include="..\APP\myiic.c" />
+    <ClCompile Include="..\APP\osObjCreat.c" />
+    <ClCompile Include="..\APP\partab.c" />
+    <ClCompile Include="..\APP\sd_lpc.c" />
+    <ClCompile Include="..\APP\stmflash.c" />
+    <ClCompile Include="..\APP\strctr.c" />
+    <ClCompile Include="..\APP\sys.c" />
+    <ClCompile Include="..\APP\sysfun.c" />
+    <ClCompile Include="..\APP\systask.c" />
+    <ClCompile Include="..\CMSISOS\Config\RTX_Config.c" />
+    <ClCompile Include="..\CMSISOS\Config\cmsis_os1.c" />
+    <ClCompile Include="..\CMSISOS\Config\os_systick.c" />
+    <ClCompile Include="..\CMSISOS\Source\IAR\irq_cm4f.s" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_delay.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_evflags.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_evr.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_kernel.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_lib.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_memory.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_mempool.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_msgqueue.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_mutex.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_semaphore.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_system.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_thread.c" />
+    <ClCompile Include="..\CMSISOS\Source\rtx_timer.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c" />
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c" />
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\ff.c" />
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c" />
+    <ClCompile Include="..\Src\main.c" />
+    <ClCompile Include="..\Src\stm32f4xx_hal_msp.c" />
+    <ClCompile Include="..\Src\stm32f4xx_it.c" />
+    <ClCompile Include="..\Src\system_stm32f4xx.c" />
+    <ClCompile Include="..\dwin\dwinapp.c" />
+    <ClCompile Include="..\dwin\text.c" />
+    <ClCompile Include="..\gprs\gprsapi.c" />
+    <ClCompile Include="..\gprs\gprsapp.c" />
+    <ClCompile Include="..\gprs\gprscom.c" />
+    <ClCompile Include="..\modbus\mbapp.c" />
+    <ClCompile Include="..\modbus\mbdatacb.c" />
+    <ClCompile Include="..\modbus\mbossync.c" />
+    <ClCompile Include="..\modbus\mbportx.c" />
+    <ClCompile Include="..\modbus\mbporty.c" />
+    <ClCompile Include="..\modbus\mbportz.c" />
+    <ClCompile Include="..\print\printapp.c" />
+    <ClCompile Include="..\print\printcom.c" />
+    <ClCompile Include="..\wavtask\audioplay.c" />
+    <ClCompile Include="..\wavtask\i2s.c" />
+    <ClCompile Include="..\wavtask\wavplay.c" />
+    <ClCompile Include="..\wavtask\wm8978.c" />
+    <ClCompile Include="startup_stm32f427xx.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\APP\FlashEep_M4.a" />
+    <None Include="..\APP\dataproc-m4f.a" />
+    <None Include="..\APP\ms_pid_lib_m4.a" />
+    <None Include="..\APP\read_me.txt" />
+    <None Include="..\APP\sdk_co2_m4f.a" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
